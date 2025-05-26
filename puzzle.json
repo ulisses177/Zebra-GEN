@@ -1,0 +1,44 @@
+{
+    "name": "Quebra-cabeça: Carros na Corrida",
+    "dimension": 5,
+    "domain": {
+      "Piloto": ["Hamilton", "Vettel", "Alonso", "Verstappen", "Norris"],
+      "Cor": ["Vermelho", "Azul", "Verde", "Amarelo", "Preto"],
+      "Bebida": ["Água", "Chá", "Café", "Refrigerante", "Suco"],
+      "Marca": ["Ferrari", "Lamborghini", "Porsche", "Bugatti", "McLaren"],
+      "Acessório": ["Relógio", "Óculos", "Chapéu", "Luvas", "Jaqueta"]
+    },
+    "constraints": [
+      { "type": "position", "position": 0, "attribute": "Piloto", "value": "Hamilton" },
+      { "type": "position", "position": 2, "attribute": "Bebida", "value": "Café" },
+      { "type": "direct", "if": {"attribute": "Piloto", "value": "Vettel"},
+                           "then": {"attribute": "Cor", "value": "Vermelho"} },
+      { "type": "direct", "if": {"attribute": "Piloto", "value": "Alonso"},
+                           "then": {"attribute": "Bebida", "value": "Chá"} },
+      { "type": "direct", "if": {"attribute": "Piloto", "value": "Verstappen"},
+                           "then": {"attribute": "Marca", "value": "Bugatti"} },
+      { "type": "direct", "if": {"attribute": "Piloto", "value": "Norris"},
+                           "then": {"attribute": "Acessório", "value": "Relógio"} },
+      { "type": "ordered", "left": {"attribute": "Cor", "value": "Verde"},
+                          "right": {"attribute": "Cor", "value": "Preto"}, "immediate": true },
+      { "type": "direct", "if": {"attribute": "Cor", "value": "Verde"},
+                           "then": {"attribute": "Bebida", "value": "Água"} },
+      { "type": "direct", "if": {"attribute": "Marca", "value": "Ferrari"},
+                           "then": {"attribute": "Acessório", "value": "Óculos"} },
+      { "type": "direct", "if": {"attribute": "Cor", "value": "Amarelo"},
+                           "then": {"attribute": "Marca", "value": "Lamborghini"} },
+      { "type": "neighbor", "if": {"attribute": "Marca", "value": "Porsche"},
+                            "neighbor": {"attribute": "Acessório", "value": "Chapéu"} },
+      { "type": "neighbor", "if": {"attribute": "Marca", "value": "Porsche"},
+                            "neighbor": {"attribute": "Bebida", "value": "Refrigerante"} },
+      { "type": "neighbor", "if": {"attribute": "Acessório", "value": "Luvas"},
+                            "neighbor": {"attribute": "Marca", "value": "McLaren"} },
+      { "type": "direct", "if": {"attribute": "Marca", "value": "McLaren"},
+                           "then": {"attribute": "Bebida", "value": "Suco"} }
+    ],
+    "fixed": {
+      "0": {"Piloto": "Hamilton"},
+      "2": {"Bebida": "Café"}
+    }
+  }
+  

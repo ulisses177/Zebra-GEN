@@ -1,0 +1,1686 @@
+[
+  {
+    "domain": {
+      "Compositor": [
+        "Mozart",
+        "Beethoven",
+        "Bach"
+      ],
+      "Instrumento": [
+        "Piano",
+        "Violino",
+        "Cello"
+      ],
+      "Musica": [
+        "Sonata ao Luar",
+        "Concerto de Brandemburgo",
+        "Sinfonia Nº 5"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 3 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 3.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - Compositor: Mozart, Beethoven, Bach.\n  - Instrumento: Piano, Violino, Cello.\n  - Musica: Sonata ao Luar, Concerto de Brandemburgo, Sinfonia Nº 5.\n\nDicas do puzzle:\n1. Se um item tem Instrumento igual a Violino, então esse mesmo item tem Compositor igual a Beethoven.\n2. Se um item tem Compositor igual a Bach, então esse mesmo item tem Instrumento igual a Cello.\n3. Se um item tem Compositor igual a Mozart, então esse mesmo item tem Musica igual a Sonata ao Luar.\n4. Se um item tem Musica igual a Concerto de Brandemburgo, então pelo menos um dos itens vizinhos tem Instrumento igual a Cello.\n5. O item com Instrumento igual a Violino está imediatamente à esquerda do item com Musica igual a Sinfonia Nº 5.\n6. Se um item tem Instrumento igual a Cello, então pelo menos um dos itens vizinhos tem Compositor igual a Beethoven.\n\n\nPergunta Retroalimentada: Com base na dedução, quem é vizinho do item com Instrumento igual a Cello?",
+    "deduction": [
+      "1. O item 2 tem Compositor igual a Beethoven.",
+      "2. O item 3 tem Instrumento igual a Cello.",
+      "3. O item 1 tem Musica igual a Sonata ao Luar.",
+      "4. Se um item tem Instrumento igual a Violino, então esse mesmo item tem Compositor igual a Beethoven.",
+      "5. Se um item tem Compositor igual a Bach, então esse mesmo item tem Instrumento igual a Cello.",
+      "6. Se um item tem Compositor igual a Mozart, então esse mesmo item tem Musica igual a Sonata ao Luar.",
+      "7. Se um item tem Musica igual a Concerto de Brandemburgo, então pelo menos um dos itens vizinhos tem Instrumento igual a Cello.",
+      "8. O item com Instrumento igual a Violino está imediatamente à esquerda do item com Musica igual a Sinfonia Nº 5.",
+      "9. Se um item tem Instrumento igual a Cello, então pelo menos um dos itens vizinhos tem Compositor igual a Beethoven."
+    ],
+    "feedback_question": "Com base na dedução, quem é vizinho do item com Instrumento igual a Cello?",
+    "correct_answer": "Solução Final:\nItem 1: Compositor: Mozart, Instrumento: Piano, Musica: Sonata ao Luar\nItem 2: Compositor: Beethoven, Instrumento: Violino, Musica: Concerto de Brandemburgo\nItem 3: Compositor: Bach, Instrumento: Cello, Musica: Sinfonia Nº 5\n\nResposta: O item vizinho possui Compositor igual a Beethoven.",
+    "solution": [
+      {
+        "Compositor": "Mozart",
+        "Instrumento": "Piano",
+        "Musica": "Sonata ao Luar"
+      },
+      {
+        "Compositor": "Beethoven",
+        "Instrumento": "Violino",
+        "Musica": "Concerto de Brandemburgo"
+      },
+      {
+        "Compositor": "Bach",
+        "Instrumento": "Cello",
+        "Musica": "Sinfonia Nº 5"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'Compositor': 'Mozart', 'Instrumento': 'Piano', 'Musica': 'Sonata ao Luar'}",
+      "Atribuindo item 2: {'Compositor': 'Beethoven', 'Instrumento': 'Violino', 'Musica': 'Concerto de Brandemburgo'}",
+      "Atribuindo item 3: {'Compositor': 'Bach', 'Instrumento': 'Cello', 'Musica': 'Sinfonia Nº 5'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "EstiloArtistico": [
+        "Renascimento",
+        "Barroco",
+        "Modernismo"
+      ],
+      "PeriodoHistorico": [
+        "IdadeMédia",
+        "Renaissance",
+        "Contemporâneo"
+      ],
+      "ObraIdentificacao": [
+        "Obra1",
+        "Obra2",
+        "Obra3"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 3 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 3.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - EstiloArtistico: Renascimento, Barroco, Modernismo.\n  - PeriodoHistorico: IdadeMédia, Renaissance, Contemporâneo.\n  - ObraIdentificacao: Obra1, Obra2, Obra3.\n\nDicas do puzzle:\n1. Se um item tem ObraIdentificacao igual a Obra3, então esse mesmo item tem EstiloArtistico igual a Modernismo.\n2. Se um item tem PeriodoHistorico igual a IdadeMédia, então esse mesmo item tem EstiloArtistico igual a Renascimento.\n3. Se um item tem PeriodoHistorico igual a IdadeMédia, então esse mesmo item tem ObraIdentificacao igual a Obra1.\n4. Se um item tem PeriodoHistorico igual a Renaissance, então pelo menos um dos itens vizinhos tem EstiloArtistico igual a Modernismo.\n5. Se um item tem EstiloArtistico igual a Modernismo, então pelo menos um dos itens vizinhos tem PeriodoHistorico igual a Renaissance.\n6. Se um item tem ObraIdentificacao igual a Obra1, então pelo menos um dos itens vizinhos tem EstiloArtistico igual a Barroco.\n\n\nPergunta Retroalimentada: Com base na dedução, quem é vizinho do item com ObraIdentificacao igual a Obra1?",
+    "deduction": [
+      "1. O item 1 tem ObraIdentificacao igual a Obra1.",
+      "2. O item 1 tem EstiloArtistico igual a Renascimento.",
+      "3. O item 3 tem ObraIdentificacao igual a Obra3.",
+      "4. Se um item tem ObraIdentificacao igual a Obra3, então esse mesmo item tem EstiloArtistico igual a Modernismo.",
+      "5. Se um item tem PeriodoHistorico igual a IdadeMédia, então esse mesmo item tem EstiloArtistico igual a Renascimento.",
+      "6. Se um item tem PeriodoHistorico igual a IdadeMédia, então esse mesmo item tem ObraIdentificacao igual a Obra1.",
+      "7. Se um item tem PeriodoHistorico igual a Renaissance, então pelo menos um dos itens vizinhos tem EstiloArtistico igual a Modernismo.",
+      "8. Se um item tem EstiloArtistico igual a Modernismo, então pelo menos um dos itens vizinhos tem PeriodoHistorico igual a Renaissance.",
+      "9. Se um item tem ObraIdentificacao igual a Obra1, então pelo menos um dos itens vizinhos tem EstiloArtistico igual a Barroco."
+    ],
+    "feedback_question": "Com base na dedução, quem é vizinho do item com ObraIdentificacao igual a Obra1?",
+    "correct_answer": "Solução Final:\nItem 1: EstiloArtistico: Renascimento, PeriodoHistorico: IdadeMédia, ObraIdentificacao: Obra1\nItem 2: EstiloArtistico: Barroco, PeriodoHistorico: Renaissance, ObraIdentificacao: Obra2\nItem 3: EstiloArtistico: Modernismo, PeriodoHistorico: Contemporâneo, ObraIdentificacao: Obra3\n\nResposta: O item vizinho possui EstiloArtistico igual a Barroco.",
+    "solution": [
+      {
+        "EstiloArtistico": "Renascimento",
+        "PeriodoHistorico": "IdadeMédia",
+        "ObraIdentificacao": "Obra1"
+      },
+      {
+        "EstiloArtistico": "Barroco",
+        "PeriodoHistorico": "Renaissance",
+        "ObraIdentificacao": "Obra2"
+      },
+      {
+        "EstiloArtistico": "Modernismo",
+        "PeriodoHistorico": "Contemporâneo",
+        "ObraIdentificacao": "Obra3"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'EstiloArtistico': 'Renascimento', 'PeriodoHistorico': 'IdadeMédia', 'ObraIdentificacao': 'Obra1'}",
+      "Atribuindo item 2: {'EstiloArtistico': 'Barroco', 'PeriodoHistorico': 'Renaissance', 'ObraIdentificacao': 'Obra2'}",
+      "Atribuindo item 3: {'EstiloArtistico': 'Modernismo', 'PeriodoHistorico': 'Contemporâneo', 'ObraIdentificacao': 'Obra3'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "Habitat": [
+        "Recife",
+        "Aberto",
+        "Fundo do Mar",
+        "Gelo"
+      ],
+      "Alimentação": [
+        "Plâncton",
+        "Peixes Pequenos",
+        "Lulas",
+        "Kril"
+      ],
+      "Comportamento": [
+        "Solitário",
+        "Social",
+        "Migratório",
+        "Territorial"
+      ],
+      "Característica Física": [
+        "Corpo alongado",
+        "Barbatanas grandes",
+        "Dentes afiados",
+        "Pele lisa"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 4 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 4.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - Habitat: Recife, Aberto, Fundo do Mar, Gelo.\n  - Alimentação: Plâncton, Peixes Pequenos, Lulas, Kril.\n  - Comportamento: Solitário, Social, Migratório, Territorial.\n  - Característica Física: Corpo alongado, Barbatanas grandes, Dentes afiados, Pele lisa.\n\nDicas do puzzle:\n1. Se um item tem Alimentação igual a Lulas, então esse mesmo item tem Habitat igual a Fundo do Mar.\n2. Se um item tem Comportamento igual a Territorial, então esse mesmo item tem Habitat igual a Gelo.\n3. Se um item tem Característica Física igual a Corpo alongado, então esse mesmo item tem Comportamento igual a Solitário.\n4. Se um item tem Alimentação igual a Kril, então esse mesmo item tem Habitat igual a Gelo.\n5. Se um item tem Habitat igual a Fundo do Mar, então pelo menos um dos itens vizinhos tem Comportamento igual a Territorial.\n6. O item com Habitat igual a Fundo do Mar está imediatamente à esquerda do item com Comportamento igual a Territorial.\n7. Se um item tem Alimentação igual a Kril, então pelo menos um dos itens vizinhos tem Comportamento igual a Migratório.\n8. O item com Habitat igual a Fundo do Mar está imediatamente à esquerda do item com Alimentação igual a Kril.\n\n\nPergunta Retroalimentada: Qual é o resultado final deduzido?",
+    "deduction": [
+      "1. O item 4 tem Habitat igual a Gelo.",
+      "2. O item 1 tem Comportamento igual a Solitário.",
+      "3. O item 3 tem Alimentação igual a Lulas.",
+      "4. O item 2 tem Habitat igual a Aberto.",
+      "5. Se um item tem Alimentação igual a Lulas, então esse mesmo item tem Habitat igual a Fundo do Mar.",
+      "6. Se um item tem Comportamento igual a Territorial, então esse mesmo item tem Habitat igual a Gelo.",
+      "7. Se um item tem Característica Física igual a Corpo alongado, então esse mesmo item tem Comportamento igual a Solitário.",
+      "8. Se um item tem Alimentação igual a Kril, então esse mesmo item tem Habitat igual a Gelo.",
+      "9. Se um item tem Habitat igual a Fundo do Mar, então pelo menos um dos itens vizinhos tem Comportamento igual a Territorial.",
+      "10. O item com Habitat igual a Fundo do Mar está imediatamente à esquerda do item com Comportamento igual a Territorial.",
+      "11. Se um item tem Alimentação igual a Kril, então pelo menos um dos itens vizinhos tem Comportamento igual a Migratório.",
+      "12. O item com Habitat igual a Fundo do Mar está imediatamente à esquerda do item com Alimentação igual a Kril."
+    ],
+    "feedback_question": "Qual é o resultado final deduzido?",
+    "correct_answer": "",
+    "solution": [
+      {
+        "Habitat": "Recife",
+        "Alimentação": "Plâncton",
+        "Comportamento": "Solitário",
+        "Característica Física": "Corpo alongado"
+      },
+      {
+        "Habitat": "Aberto",
+        "Alimentação": "Peixes Pequenos",
+        "Comportamento": "Social",
+        "Característica Física": "Barbatanas grandes"
+      },
+      {
+        "Habitat": "Fundo do Mar",
+        "Alimentação": "Lulas",
+        "Comportamento": "Migratório",
+        "Característica Física": "Dentes afiados"
+      },
+      {
+        "Habitat": "Gelo",
+        "Alimentação": "Kril",
+        "Comportamento": "Territorial",
+        "Característica Física": "Pele lisa"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'Habitat': 'Recife', 'Alimentação': 'Plâncton', 'Comportamento': 'Solitário', 'Característica Física': 'Corpo alongado'}",
+      "Atribuindo item 2: {'Habitat': 'Aberto', 'Alimentação': 'Peixes Pequenos', 'Comportamento': 'Social', 'Característica Física': 'Barbatanas grandes'}",
+      "Atribuindo item 3: {'Habitat': 'Fundo do Mar', 'Alimentação': 'Lulas', 'Comportamento': 'Migratório', 'Característica Física': 'Dentes afiados'}",
+      "Atribuindo item 4: {'Habitat': 'Gelo', 'Alimentação': 'Kril', 'Comportamento': 'Territorial', 'Característica Física': 'Pele lisa'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "Violino": [
+        "Corda",
+        "Madeira",
+        "Metal",
+        "Resonador"
+      ],
+      "Piano": [
+        "Teclado",
+        "Martelo",
+        "Pedal",
+        "Caixa de Resonância"
+      ],
+      "Flauta": [
+        "Sopro",
+        "Tubo",
+        "Chave",
+        "Bocal"
+      ],
+      "Guitarra": [
+        "Corda",
+        "Corpo",
+        "Trastes",
+        "Ponte"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 4 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 4.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - Violino: Corda, Madeira, Metal, Resonador.\n  - Piano: Teclado, Martelo, Pedal, Caixa de Resonância.\n  - Flauta: Sopro, Tubo, Chave, Bocal.\n  - Guitarra: Corda, Corpo, Trastes, Ponte.\n\nDicas do puzzle:\n1. Se um item tem Piano igual a Pedal, então esse mesmo item tem Violino igual a Metal.\n2. Se um item tem Guitarra igual a Ponte, então esse mesmo item tem Piano igual a Caixa de Resonância.\n3. Se um item tem Guitarra igual a Corpo, então esse mesmo item tem Piano igual a Martelo.\n4. Se um item tem Violino igual a Resonador, então esse mesmo item tem Guitarra igual a Ponte.\n5. Se um item tem Flauta igual a Tubo, então pelo menos um dos itens vizinhos tem Violino igual a Corda.\n6. Se um item tem Violino igual a Metal, então pelo menos um dos itens vizinhos tem Guitarra igual a Corpo.\n7. O item com Violino igual a Madeira está imediatamente à esquerda do item com Piano igual a Pedal.\n8. Se um item tem Flauta igual a Chave, então pelo menos um dos itens vizinhos tem Guitarra igual a Corpo.\n\n\nPergunta Retroalimentada: Com base na dedução, quem é vizinho do item com Flauta igual a Chave?",
+    "deduction": [
+      "1. O item 2 tem Violino igual a Madeira.",
+      "2. O item 3 tem Piano igual a Pedal.",
+      "3. O item 4 tem Piano igual a Caixa de Resonância.",
+      "4. O item 2 tem Guitarra igual a Corpo.",
+      "5. Se um item tem Piano igual a Pedal, então esse mesmo item tem Violino igual a Metal.",
+      "6. Se um item tem Guitarra igual a Ponte, então esse mesmo item tem Piano igual a Caixa de Resonância.",
+      "7. Se um item tem Guitarra igual a Corpo, então esse mesmo item tem Piano igual a Martelo.",
+      "8. Se um item tem Violino igual a Resonador, então esse mesmo item tem Guitarra igual a Ponte.",
+      "9. Se um item tem Flauta igual a Tubo, então pelo menos um dos itens vizinhos tem Violino igual a Corda.",
+      "10. Se um item tem Violino igual a Metal, então pelo menos um dos itens vizinhos tem Guitarra igual a Corpo.",
+      "11. O item com Violino igual a Madeira está imediatamente à esquerda do item com Piano igual a Pedal.",
+      "12. Se um item tem Flauta igual a Chave, então pelo menos um dos itens vizinhos tem Guitarra igual a Corpo."
+    ],
+    "feedback_question": "Com base na dedução, quem é vizinho do item com Flauta igual a Chave?",
+    "correct_answer": "Solução Final:\nItem 1: Violino: Corda, Piano: Teclado, Flauta: Sopro, Guitarra: Corda\nItem 2: Violino: Madeira, Piano: Martelo, Flauta: Tubo, Guitarra: Corpo\nItem 3: Violino: Metal, Piano: Pedal, Flauta: Chave, Guitarra: Trastes\nItem 4: Violino: Resonador, Piano: Caixa de Resonância, Flauta: Bocal, Guitarra: Ponte\n\nResposta: O item vizinho possui Guitarra igual a Corpo.",
+    "solution": [
+      {
+        "Violino": "Corda",
+        "Piano": "Teclado",
+        "Flauta": "Sopro",
+        "Guitarra": "Corda"
+      },
+      {
+        "Violino": "Madeira",
+        "Piano": "Martelo",
+        "Flauta": "Tubo",
+        "Guitarra": "Corpo"
+      },
+      {
+        "Violino": "Metal",
+        "Piano": "Pedal",
+        "Flauta": "Chave",
+        "Guitarra": "Trastes"
+      },
+      {
+        "Violino": "Resonador",
+        "Piano": "Caixa de Resonância",
+        "Flauta": "Bocal",
+        "Guitarra": "Ponte"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'Violino': 'Corda', 'Piano': 'Teclado', 'Flauta': 'Sopro', 'Guitarra': 'Corda'}",
+      "Atribuindo item 2: {'Violino': 'Madeira', 'Piano': 'Martelo', 'Flauta': 'Tubo', 'Guitarra': 'Corpo'}",
+      "Atribuindo item 3: {'Violino': 'Metal', 'Piano': 'Pedal', 'Flauta': 'Chave', 'Guitarra': 'Trastes'}",
+      "Atribuindo item 4: {'Violino': 'Resonador', 'Piano': 'Caixa de Resonância', 'Flauta': 'Bocal', 'Guitarra': 'Ponte'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "Montanha do Olimpo": [
+        "Zeus",
+        "Hera",
+        "Poseidon",
+        "Ares"
+      ],
+      "Valle das Sombras": [
+        "Hades",
+        "Persefone",
+        "Caronte",
+        "Cerberus"
+      ],
+      "Floresta Encantada": [
+        "Pan",
+        "Ninfas",
+        "Sátiros",
+        "Dryads"
+      ],
+      "Ilha dos Sonhos": [
+        "Morpheus",
+        "Oneiroi",
+        "Phantasos",
+        "Phobetor"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 4 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 4.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - Montanha do Olimpo: Zeus, Hera, Poseidon, Ares.\n  - Valle das Sombras: Hades, Persefone, Caronte, Cerberus.\n  - Floresta Encantada: Pan, Ninfas, Sátiros, Dryads.\n  - Ilha dos Sonhos: Morpheus, Oneiroi, Phantasos, Phobetor.\n\nDicas do puzzle:\n1. Se um item tem Floresta Encantada igual a Sátiros, então esse mesmo item tem Ilha dos Sonhos igual a Phantasos.\n2. Se um item tem Floresta Encantada igual a Sátiros, então esse mesmo item tem Montanha do Olimpo igual a Poseidon.\n3. Se um item tem Floresta Encantada igual a Ninfas, então esse mesmo item tem Ilha dos Sonhos igual a Oneiroi.\n4. Se um item tem Montanha do Olimpo igual a Zeus, então esse mesmo item tem Valle das Sombras igual a Hades.\n5. Se um item tem Floresta Encantada igual a Sátiros, então pelo menos um dos itens vizinhos tem Valle das Sombras igual a Cerberus.\n6. O item com Valle das Sombras igual a Hades está imediatamente à esquerda do item com Montanha do Olimpo igual a Hera.\n7. Se um item tem Ilha dos Sonhos igual a Oneiroi, então pelo menos um dos itens vizinhos tem Montanha do Olimpo igual a Poseidon.\n8. Se um item tem Valle das Sombras igual a Persefone, então pelo menos um dos itens vizinhos tem Ilha dos Sonhos igual a Morpheus.\n\n\nPergunta Retroalimentada: Com base na dedução, quem é vizinho do item com Valle das Sombras igual a Persefone?",
+    "deduction": [
+      "1. O item 3 tem Valle das Sombras igual a Caronte.",
+      "2. O item 4 tem Valle das Sombras igual a Cerberus.",
+      "3. O item 2 tem Valle das Sombras igual a Persefone.",
+      "4. O item 2 tem Montanha do Olimpo igual a Hera.",
+      "5. Se um item tem Floresta Encantada igual a Sátiros, então esse mesmo item tem Ilha dos Sonhos igual a Phantasos.",
+      "6. Se um item tem Floresta Encantada igual a Sátiros, então esse mesmo item tem Montanha do Olimpo igual a Poseidon.",
+      "7. Se um item tem Floresta Encantada igual a Ninfas, então esse mesmo item tem Ilha dos Sonhos igual a Oneiroi.",
+      "8. Se um item tem Montanha do Olimpo igual a Zeus, então esse mesmo item tem Valle das Sombras igual a Hades.",
+      "9. Se um item tem Floresta Encantada igual a Sátiros, então pelo menos um dos itens vizinhos tem Valle das Sombras igual a Cerberus.",
+      "10. O item com Valle das Sombras igual a Hades está imediatamente à esquerda do item com Montanha do Olimpo igual a Hera.",
+      "11. Se um item tem Ilha dos Sonhos igual a Oneiroi, então pelo menos um dos itens vizinhos tem Montanha do Olimpo igual a Poseidon.",
+      "12. Se um item tem Valle das Sombras igual a Persefone, então pelo menos um dos itens vizinhos tem Ilha dos Sonhos igual a Morpheus."
+    ],
+    "feedback_question": "Com base na dedução, quem é vizinho do item com Valle das Sombras igual a Persefone?",
+    "correct_answer": "Solução Final:\nItem 1: Montanha do Olimpo: Zeus, Valle das Sombras: Hades, Floresta Encantada: Pan, Ilha dos Sonhos: Morpheus\nItem 2: Montanha do Olimpo: Hera, Valle das Sombras: Persefone, Floresta Encantada: Ninfas, Ilha dos Sonhos: Oneiroi\nItem 3: Montanha do Olimpo: Poseidon, Valle das Sombras: Caronte, Floresta Encantada: Sátiros, Ilha dos Sonhos: Phantasos\nItem 4: Montanha do Olimpo: Ares, Valle das Sombras: Cerberus, Floresta Encantada: Dryads, Ilha dos Sonhos: Phobetor\n\nResposta: O item vizinho possui Ilha dos Sonhos igual a Morpheus.",
+    "solution": [
+      {
+        "Montanha do Olimpo": "Zeus",
+        "Valle das Sombras": "Hades",
+        "Floresta Encantada": "Pan",
+        "Ilha dos Sonhos": "Morpheus"
+      },
+      {
+        "Montanha do Olimpo": "Hera",
+        "Valle das Sombras": "Persefone",
+        "Floresta Encantada": "Ninfas",
+        "Ilha dos Sonhos": "Oneiroi"
+      },
+      {
+        "Montanha do Olimpo": "Poseidon",
+        "Valle das Sombras": "Caronte",
+        "Floresta Encantada": "Sátiros",
+        "Ilha dos Sonhos": "Phantasos"
+      },
+      {
+        "Montanha do Olimpo": "Ares",
+        "Valle das Sombras": "Cerberus",
+        "Floresta Encantada": "Dryads",
+        "Ilha dos Sonhos": "Phobetor"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'Montanha do Olimpo': 'Zeus', 'Valle das Sombras': 'Hades', 'Floresta Encantada': 'Pan', 'Ilha dos Sonhos': 'Morpheus'}",
+      "Atribuindo item 2: {'Montanha do Olimpo': 'Hera', 'Valle das Sombras': 'Persefone', 'Floresta Encantada': 'Ninfas', 'Ilha dos Sonhos': 'Oneiroi'}",
+      "Atribuindo item 3: {'Montanha do Olimpo': 'Poseidon', 'Valle das Sombras': 'Caronte', 'Floresta Encantada': 'Sátiros', 'Ilha dos Sonhos': 'Phantasos'}",
+      "Atribuindo item 4: {'Montanha do Olimpo': 'Ares', 'Valle das Sombras': 'Cerberus', 'Floresta Encantada': 'Dryads', 'Ilha dos Sonhos': 'Phobetor'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "Pica-pau": [
+        "Madeira",
+        "Insetos",
+        "Floresta Tropical",
+        "Bico Forte",
+        "Ninho em Árvores"
+      ],
+      "Gavião": [
+        "Peixes",
+        "Montanhas",
+        "Rapina",
+        "Voo Rápido",
+        "Ninho em Cliffs"
+      ],
+      "Pombo": [
+        "Sementes",
+        "Cidades",
+        "Mensageiro",
+        "Voo Curto",
+        "Ninho em Edifícios"
+      ],
+      "Tucano": [
+        "Frutas",
+        "Selva",
+        "Bico Colorido",
+        "Voo Lento",
+        "Ninho em Buracos de Árvores"
+      ],
+      "Coruja": [
+        "Ratos",
+        "Florestas",
+        "Silenciosa",
+        "Voo Suave",
+        "Ninho em Cavidades"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 5 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 5.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - Pica-pau: Madeira, Insetos, Floresta Tropical, Bico Forte, Ninho em Árvores.\n  - Gavião: Peixes, Montanhas, Rapina, Voo Rápido, Ninho em Cliffs.\n  - Pombo: Sementes, Cidades, Mensageiro, Voo Curto, Ninho em Edifícios.\n  - Tucano: Frutas, Selva, Bico Colorido, Voo Lento, Ninho em Buracos de Árvores.\n  - Coruja: Ratos, Florestas, Silenciosa, Voo Suave, Ninho em Cavidades.\n\nDicas do puzzle:\n1. Se um item tem Tucano igual a Bico Colorido, então esse mesmo item tem Pombo igual a Mensageiro.\n2. Se um item tem Pica-pau igual a Insetos, então esse mesmo item tem Tucano igual a Bico Colorido.\n3. Se um item tem Pombo igual a Voo Curto, então esse mesmo item tem Coruja igual a Silenciosa.\n4. Se um item tem Coruja igual a Ratos, então esse mesmo item tem Pombo igual a Sementes.\n5. Se um item tem Pica-pau igual a Madeira, então esse mesmo item tem Pombo igual a Sementes.\n6. Se um item tem Tucano igual a Frutas, então pelo menos um dos itens vizinhos tem Pombo igual a Mensageiro.\n7. Se um item tem Coruja igual a Ratos, então pelo menos um dos itens vizinhos tem Gavião igual a Montanhas.\n8. O item com Pombo igual a Ninho em Edifícios está imediatamente à esquerda do item com Pica-pau igual a Ninho em Árvores.\n9. Se um item tem Gavião igual a Voo Rápido, então pelo menos um dos itens vizinhos tem Pombo igual a Voo Curto.\n10. Se um item tem Coruja igual a Ratos, então pelo menos um dos itens vizinhos tem Pombo igual a Mensageiro.\n\n\nPergunta Retroalimentada: Com base na dedução, quem é vizinho do item com Coruja igual a Ratos?",
+    "deduction": [
+      "1. O item 3 tem Pombo igual a Voo Curto.",
+      "2. O item 4 tem Gavião igual a Voo Rápido.",
+      "3. O item 1 tem Tucano igual a Frutas.",
+      "4. O item 4 tem Coruja igual a Voo Suave.",
+      "5. O item 4 tem Pombo igual a Ninho em Edifícios.",
+      "6. Se um item tem Tucano igual a Bico Colorido, então esse mesmo item tem Pombo igual a Mensageiro.",
+      "7. Se um item tem Pica-pau igual a Insetos, então esse mesmo item tem Tucano igual a Bico Colorido.",
+      "8. Se um item tem Pombo igual a Voo Curto, então esse mesmo item tem Coruja igual a Silenciosa.",
+      "9. Se um item tem Coruja igual a Ratos, então esse mesmo item tem Pombo igual a Sementes.",
+      "10. Se um item tem Pica-pau igual a Madeira, então esse mesmo item tem Pombo igual a Sementes.",
+      "11. Se um item tem Tucano igual a Frutas, então pelo menos um dos itens vizinhos tem Pombo igual a Mensageiro.",
+      "12. Se um item tem Coruja igual a Ratos, então pelo menos um dos itens vizinhos tem Gavião igual a Montanhas.",
+      "13. O item com Pombo igual a Ninho em Edifícios está imediatamente à esquerda do item com Pica-pau igual a Ninho em Árvores.",
+      "14. Se um item tem Gavião igual a Voo Rápido, então pelo menos um dos itens vizinhos tem Pombo igual a Voo Curto.",
+      "15. Se um item tem Coruja igual a Ratos, então pelo menos um dos itens vizinhos tem Pombo igual a Mensageiro."
+    ],
+    "feedback_question": "Com base na dedução, quem é vizinho do item com Coruja igual a Ratos?",
+    "correct_answer": "Solução Final:\nItem 1: Pica-pau: Madeira, Gavião: Peixes, Pombo: Sementes, Tucano: Frutas, Coruja: Ratos\nItem 2: Pica-pau: Insetos, Gavião: Montanhas, Pombo: Mensageiro, Tucano: Bico Colorido, Coruja: Florestas\nItem 3: Pica-pau: Floresta Tropical, Gavião: Rapina, Pombo: Voo Curto, Tucano: Voo Lento, Coruja: Silenciosa\nItem 4: Pica-pau: Bico Forte, Gavião: Voo Rápido, Pombo: Ninho em Edifícios, Tucano: Ninho em Buracos de Árvores, Coruja: Voo Suave\nItem 5: Pica-pau: Ninho em Árvores, Gavião: Ninho em Cliffs, Pombo: Cidades, Tucano: Selva, Coruja: Ninho em Cavidades\n\nResposta: O item vizinho possui Pombo igual a Mensageiro.",
+    "solution": [
+      {
+        "Pica-pau": "Madeira",
+        "Gavião": "Peixes",
+        "Pombo": "Sementes",
+        "Tucano": "Frutas",
+        "Coruja": "Ratos"
+      },
+      {
+        "Pica-pau": "Insetos",
+        "Gavião": "Montanhas",
+        "Pombo": "Mensageiro",
+        "Tucano": "Bico Colorido",
+        "Coruja": "Florestas"
+      },
+      {
+        "Pica-pau": "Floresta Tropical",
+        "Gavião": "Rapina",
+        "Pombo": "Voo Curto",
+        "Tucano": "Selva",
+        "Coruja": "Silenciosa"
+      },
+      {
+        "Pica-pau": "Bico Forte",
+        "Gavião": "Voo Rápido",
+        "Pombo": "Ninho em Edifícios",
+        "Tucano": "Voo Lento",
+        "Coruja": "Voo Suave"
+      },
+      {
+        "Pica-pau": "Ninho em Árvores",
+        "Gavião": "Ninho em Cliffs",
+        "Pombo": "Cidades",
+        "Tucano": "Ninho em Buracos de Árvores",
+        "Coruja": "Ninho em Cavidades"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'Pica-pau': 'Madeira', 'Gavião': 'Peixes', 'Pombo': 'Sementes', 'Tucano': 'Frutas', 'Coruja': 'Ratos'}",
+      "Atribuindo item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Selva', 'Coruja': 'Florestas'}",
+      "Backtrack no item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Selva', 'Coruja': 'Florestas'}",
+      "Atribuindo item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Selva', 'Coruja': 'Silenciosa'}",
+      "Backtrack no item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Selva', 'Coruja': 'Silenciosa'}",
+      "Atribuindo item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Selva', 'Coruja': 'Ninho em Cavidades'}",
+      "Backtrack no item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Selva', 'Coruja': 'Ninho em Cavidades'}",
+      "Atribuindo item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Bico Colorido', 'Coruja': 'Florestas'}",
+      "Backtrack no item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Bico Colorido', 'Coruja': 'Florestas'}",
+      "Atribuindo item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Bico Colorido', 'Coruja': 'Silenciosa'}",
+      "Backtrack no item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Bico Colorido', 'Coruja': 'Silenciosa'}",
+      "Atribuindo item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Bico Colorido', 'Coruja': 'Ninho em Cavidades'}",
+      "Backtrack no item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Bico Colorido', 'Coruja': 'Ninho em Cavidades'}",
+      "Atribuindo item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Voo Lento', 'Coruja': 'Florestas'}",
+      "Backtrack no item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Voo Lento', 'Coruja': 'Florestas'}",
+      "Atribuindo item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Voo Lento', 'Coruja': 'Silenciosa'}",
+      "Backtrack no item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Voo Lento', 'Coruja': 'Silenciosa'}",
+      "Atribuindo item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Voo Lento', 'Coruja': 'Ninho em Cavidades'}",
+      "Backtrack no item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Voo Lento', 'Coruja': 'Ninho em Cavidades'}",
+      "Atribuindo item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Ninho em Buracos de Árvores', 'Coruja': 'Florestas'}",
+      "Backtrack no item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Ninho em Buracos de Árvores', 'Coruja': 'Florestas'}",
+      "Atribuindo item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Ninho em Buracos de Árvores', 'Coruja': 'Silenciosa'}",
+      "Backtrack no item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Ninho em Buracos de Árvores', 'Coruja': 'Silenciosa'}",
+      "Atribuindo item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Ninho em Buracos de Árvores', 'Coruja': 'Ninho em Cavidades'}",
+      "Backtrack no item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Cidades', 'Tucano': 'Ninho em Buracos de Árvores', 'Coruja': 'Ninho em Cavidades'}",
+      "Atribuindo item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Mensageiro', 'Tucano': 'Selva', 'Coruja': 'Florestas'}",
+      "Backtrack no item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Mensageiro', 'Tucano': 'Selva', 'Coruja': 'Florestas'}",
+      "Atribuindo item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Mensageiro', 'Tucano': 'Selva', 'Coruja': 'Silenciosa'}",
+      "Backtrack no item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Mensageiro', 'Tucano': 'Selva', 'Coruja': 'Silenciosa'}",
+      "Atribuindo item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Mensageiro', 'Tucano': 'Selva', 'Coruja': 'Ninho em Cavidades'}",
+      "Backtrack no item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Mensageiro', 'Tucano': 'Selva', 'Coruja': 'Ninho em Cavidades'}",
+      "Atribuindo item 2: {'Pica-pau': 'Insetos', 'Gavião': 'Montanhas', 'Pombo': 'Mensageiro', 'Tucano': 'Bico Colorido', 'Coruja': 'Florestas'}",
+      "Atribuindo item 3: {'Pica-pau': 'Floresta Tropical', 'Gavião': 'Rapina', 'Pombo': 'Voo Curto', 'Tucano': 'Selva', 'Coruja': 'Silenciosa'}",
+      "Atribuindo item 4: {'Pica-pau': 'Bico Forte', 'Gavião': 'Voo Rápido', 'Pombo': 'Ninho em Edifícios', 'Tucano': 'Voo Lento', 'Coruja': 'Voo Suave'}",
+      "Atribuindo item 5: {'Pica-pau': 'Ninho em Árvores', 'Gavião': 'Ninho em Cliffs', 'Pombo': 'Cidades', 'Tucano': 'Ninho em Buracos de Árvores', 'Coruja': 'Ninho em Cavidades'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "ReinoMágico": [
+        "Gondor",
+        "Narnia",
+        "Westeros",
+        "Hogwarts",
+        "Rivendell"
+      ],
+      "TerraSelvagem": [
+        "Mordor",
+        "Valinor",
+        "Pandora",
+        "Endor",
+        "Asgard"
+      ],
+      "CidadeEncantada": [
+        "Emerald City",
+        "Atlantis",
+        "Camelot",
+        "El Dorado",
+        "Agartha"
+      ],
+      "PlanetaDistante": [
+        "Tatooine",
+        "Vulcan",
+        "Dagobah",
+        "Coruscant",
+        "Hoth"
+      ],
+      "IlhaMítica": [
+        "Skull Island",
+        "Avalon",
+        "Atlantis",
+        "Thule",
+        "Hyperborea"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 5 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 5.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - ReinoMágico: Gondor, Narnia, Westeros, Hogwarts, Rivendell.\n  - TerraSelvagem: Mordor, Valinor, Pandora, Endor, Asgard.\n  - CidadeEncantada: Emerald City, Atlantis, Camelot, El Dorado, Agartha.\n  - PlanetaDistante: Tatooine, Vulcan, Dagobah, Coruscant, Hoth.\n  - IlhaMítica: Skull Island, Avalon, Atlantis, Thule, Hyperborea.\n\nDicas do puzzle:\n1. Se um item tem PlanetaDistante igual a Tatooine, então esse mesmo item tem IlhaMítica igual a Skull Island.\n2. Se um item tem CidadeEncantada igual a Emerald City, então esse mesmo item tem PlanetaDistante igual a Tatooine.\n3. Se um item tem ReinoMágico igual a Rivendell, então esse mesmo item tem TerraSelvagem igual a Asgard.\n4. Se um item tem PlanetaDistante igual a Coruscant, então esse mesmo item tem IlhaMítica igual a Thule.\n5. Se um item tem TerraSelvagem igual a Asgard, então esse mesmo item tem IlhaMítica igual a Hyperborea.\n6. Se um item tem ReinoMágico igual a Narnia, então pelo menos um dos itens vizinhos tem IlhaMítica igual a Atlantis.\n7. O item com TerraSelvagem igual a Valinor está imediatamente à esquerda do item com ReinoMágico igual a Westeros.\n8. Se um item tem IlhaMítica igual a Thule, então pelo menos um dos itens vizinhos tem PlanetaDistante igual a Dagobah.\n9. Se um item tem TerraSelvagem igual a Pandora, então pelo menos um dos itens vizinhos tem ReinoMágico igual a Hogwarts.\n10. Se um item tem PlanetaDistante igual a Coruscant, então pelo menos um dos itens vizinhos tem CidadeEncantada igual a Camelot.\n\n\nPergunta Retroalimentada: Com base na dedução, quem é vizinho do item com PlanetaDistante igual a Coruscant?",
+    "deduction": [
+      "1. O item 2 tem CidadeEncantada igual a Atlantis.",
+      "2. O item 2 tem IlhaMítica igual a Avalon.",
+      "3. O item 1 tem TerraSelvagem igual a Mordor.",
+      "4. O item 3 tem PlanetaDistante igual a Dagobah.",
+      "5. O item 3 tem ReinoMágico igual a Westeros.",
+      "6. Se um item tem PlanetaDistante igual a Tatooine, então esse mesmo item tem IlhaMítica igual a Skull Island.",
+      "7. Se um item tem CidadeEncantada igual a Emerald City, então esse mesmo item tem PlanetaDistante igual a Tatooine.",
+      "8. Se um item tem ReinoMágico igual a Rivendell, então esse mesmo item tem TerraSelvagem igual a Asgard.",
+      "9. Se um item tem PlanetaDistante igual a Coruscant, então esse mesmo item tem IlhaMítica igual a Thule.",
+      "10. Se um item tem TerraSelvagem igual a Asgard, então esse mesmo item tem IlhaMítica igual a Hyperborea.",
+      "11. Se um item tem ReinoMágico igual a Narnia, então pelo menos um dos itens vizinhos tem IlhaMítica igual a Atlantis.",
+      "12. O item com TerraSelvagem igual a Valinor está imediatamente à esquerda do item com ReinoMágico igual a Westeros.",
+      "13. Se um item tem IlhaMítica igual a Thule, então pelo menos um dos itens vizinhos tem PlanetaDistante igual a Dagobah.",
+      "14. Se um item tem TerraSelvagem igual a Pandora, então pelo menos um dos itens vizinhos tem ReinoMágico igual a Hogwarts.",
+      "15. Se um item tem PlanetaDistante igual a Coruscant, então pelo menos um dos itens vizinhos tem CidadeEncantada igual a Camelot."
+    ],
+    "feedback_question": "Com base na dedução, quem é vizinho do item com PlanetaDistante igual a Coruscant?",
+    "correct_answer": "Solução Final:\nItem 1: ReinoMágico: Gondor, TerraSelvagem: Mordor, CidadeEncantada: Emerald City, PlanetaDistante: Tatooine, IlhaMítica: Skull Island\nItem 2: ReinoMágico: Narnia, TerraSelvagem: Valinor, CidadeEncantada: Atlantis, PlanetaDistante: Vulcan, IlhaMítica: Avalon\nItem 3: ReinoMágico: Westeros, TerraSelvagem: Pandora, CidadeEncantada: Camelot, PlanetaDistante: Dagobah, IlhaMítica: Atlantis\nItem 4: ReinoMágico: Hogwarts, TerraSelvagem: Endor, CidadeEncantada: El Dorado, PlanetaDistante: Coruscant, IlhaMítica: Thule\nItem 5: ReinoMágico: Rivendell, TerraSelvagem: Asgard, CidadeEncantada: Agartha, PlanetaDistante: Hoth, IlhaMítica: Hyperborea\n\nResposta: O item vizinho possui CidadeEncantada igual a Camelot.",
+    "solution": [
+      {
+        "ReinoMágico": "Gondor",
+        "TerraSelvagem": "Mordor",
+        "CidadeEncantada": "Emerald City",
+        "PlanetaDistante": "Tatooine",
+        "IlhaMítica": "Skull Island"
+      },
+      {
+        "ReinoMágico": "Narnia",
+        "TerraSelvagem": "Valinor",
+        "CidadeEncantada": "Atlantis",
+        "PlanetaDistante": "Vulcan",
+        "IlhaMítica": "Avalon"
+      },
+      {
+        "ReinoMágico": "Westeros",
+        "TerraSelvagem": "Pandora",
+        "CidadeEncantada": "Camelot",
+        "PlanetaDistante": "Dagobah",
+        "IlhaMítica": "Atlantis"
+      },
+      {
+        "ReinoMágico": "Hogwarts",
+        "TerraSelvagem": "Endor",
+        "CidadeEncantada": "El Dorado",
+        "PlanetaDistante": "Coruscant",
+        "IlhaMítica": "Thule"
+      },
+      {
+        "ReinoMágico": "Rivendell",
+        "TerraSelvagem": "Asgard",
+        "CidadeEncantada": "Agartha",
+        "PlanetaDistante": "Hoth",
+        "IlhaMítica": "Hyperborea"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'ReinoMágico': 'Gondor', 'TerraSelvagem': 'Mordor', 'CidadeEncantada': 'Emerald City', 'PlanetaDistante': 'Tatooine', 'IlhaMítica': 'Skull Island'}",
+      "Atribuindo item 2: {'ReinoMágico': 'Narnia', 'TerraSelvagem': 'Valinor', 'CidadeEncantada': 'Atlantis', 'PlanetaDistante': 'Vulcan', 'IlhaMítica': 'Avalon'}",
+      "Atribuindo item 3: {'ReinoMágico': 'Westeros', 'TerraSelvagem': 'Pandora', 'CidadeEncantada': 'Camelot', 'PlanetaDistante': 'Dagobah', 'IlhaMítica': 'Atlantis'}",
+      "Atribuindo item 4: {'ReinoMágico': 'Hogwarts', 'TerraSelvagem': 'Endor', 'CidadeEncantada': 'El Dorado', 'PlanetaDistante': 'Coruscant', 'IlhaMítica': 'Thule'}",
+      "Atribuindo item 5: {'ReinoMágico': 'Rivendell', 'TerraSelvagem': 'Asgard', 'CidadeEncantada': 'Agartha', 'PlanetaDistante': 'Hoth', 'IlhaMítica': 'Hyperborea'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "Artista": [
+        "Elvis Presley",
+        "The Beatles",
+        "Michael Jackson",
+        "Queen"
+      ],
+      "Canção": [
+        "Jailhouse Rock",
+        "Hey Jude",
+        "Billie Jean",
+        "Bohemian Rhapsody"
+      ],
+      "Gênero": [
+        "Rock and Roll",
+        "Pop Rock",
+        "Pop",
+        "Rock Progressivo"
+      ],
+      "Álbum": [
+        "Elvis Presley",
+        "The Beatles",
+        "Thriller",
+        "A Night at the Opera"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 4 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 4.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - Artista: Elvis Presley, The Beatles, Michael Jackson, Queen.\n  - Canção: Jailhouse Rock, Hey Jude, Billie Jean, Bohemian Rhapsody.\n  - Gênero: Rock and Roll, Pop Rock, Pop, Rock Progressivo.\n  - Álbum: Elvis Presley, The Beatles, Thriller, A Night at the Opera.\n\nDicas do puzzle:\n1. Se um item tem Gênero igual a Rock and Roll, então esse mesmo item tem Artista igual a Elvis Presley.\n2. Se um item tem Gênero igual a Rock Progressivo, então esse mesmo item tem Canção igual a Bohemian Rhapsody.\n3. Se um item tem Canção igual a Jailhouse Rock, então esse mesmo item tem Gênero igual a Rock and Roll.\n4. Se um item tem Canção igual a Billie Jean, então esse mesmo item tem Artista igual a Michael Jackson.\n5. Se um item tem Canção igual a Billie Jean, então pelo menos um dos itens vizinhos tem Álbum igual a The Beatles.\n6. O item com Álbum igual a Elvis Presley está imediatamente à esquerda do item com Artista igual a The Beatles.\n7. Se um item tem Álbum igual a Thriller, então pelo menos um dos itens vizinhos tem Canção igual a Bohemian Rhapsody.\n8. Se um item tem Canção igual a Hey Jude, então pelo menos um dos itens vizinhos tem Álbum igual a Elvis Presley.\n\n\nPergunta Retroalimentada: Com base na dedução, quem é vizinho do item com Canção igual a Hey Jude?",
+    "deduction": [
+      "1. O item 3 tem Artista igual a Michael Jackson.",
+      "2. O item 2 tem Canção igual a Hey Jude.",
+      "3. O item 4 tem Artista igual a Queen.",
+      "4. O item 1 tem Artista igual a Elvis Presley.",
+      "5. Se um item tem Gênero igual a Rock and Roll, então esse mesmo item tem Artista igual a Elvis Presley.",
+      "6. Se um item tem Gênero igual a Rock Progressivo, então esse mesmo item tem Canção igual a Bohemian Rhapsody.",
+      "7. Se um item tem Canção igual a Jailhouse Rock, então esse mesmo item tem Gênero igual a Rock and Roll.",
+      "8. Se um item tem Canção igual a Billie Jean, então esse mesmo item tem Artista igual a Michael Jackson.",
+      "9. Se um item tem Canção igual a Billie Jean, então pelo menos um dos itens vizinhos tem Álbum igual a The Beatles.",
+      "10. O item com Álbum igual a Elvis Presley está imediatamente à esquerda do item com Artista igual a The Beatles.",
+      "11. Se um item tem Álbum igual a Thriller, então pelo menos um dos itens vizinhos tem Canção igual a Bohemian Rhapsody.",
+      "12. Se um item tem Canção igual a Hey Jude, então pelo menos um dos itens vizinhos tem Álbum igual a Elvis Presley."
+    ],
+    "feedback_question": "Com base na dedução, quem é vizinho do item com Canção igual a Hey Jude?",
+    "correct_answer": "Solução Final:\nItem 1: Artista: Elvis Presley, Canção: Jailhouse Rock, Gênero: Rock and Roll, Álbum: Elvis Presley\nItem 2: Artista: The Beatles, Canção: Hey Jude, Gênero: Pop Rock, Álbum: The Beatles\nItem 3: Artista: Michael Jackson, Canção: Billie Jean, Gênero: Pop, Álbum: Thriller\nItem 4: Artista: Queen, Canção: Bohemian Rhapsody, Gênero: Rock Progressivo, Álbum: A Night at the Opera\n\nResposta: O item vizinho possui Álbum igual a Elvis Presley.",
+    "solution": [
+      {
+        "Artista": "Elvis Presley",
+        "Canção": "Jailhouse Rock",
+        "Gênero": "Rock and Roll",
+        "Álbum": "Elvis Presley"
+      },
+      {
+        "Artista": "The Beatles",
+        "Canção": "Hey Jude",
+        "Gênero": "Pop Rock",
+        "Álbum": "The Beatles"
+      },
+      {
+        "Artista": "Michael Jackson",
+        "Canção": "Billie Jean",
+        "Gênero": "Pop",
+        "Álbum": "Thriller"
+      },
+      {
+        "Artista": "Queen",
+        "Canção": "Bohemian Rhapsody",
+        "Gênero": "Rock Progressivo",
+        "Álbum": "A Night at the Opera"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'Artista': 'Elvis Presley', 'Canção': 'Jailhouse Rock', 'Gênero': 'Rock and Roll', 'Álbum': 'Elvis Presley'}",
+      "Atribuindo item 2: {'Artista': 'The Beatles', 'Canção': 'Hey Jude', 'Gênero': 'Pop Rock', 'Álbum': 'The Beatles'}",
+      "Atribuindo item 3: {'Artista': 'Michael Jackson', 'Canção': 'Billie Jean', 'Gênero': 'Pop', 'Álbum': 'Thriller'}",
+      "Atribuindo item 4: {'Artista': 'Queen', 'Canção': 'Bohemian Rhapsody', 'Gênero': 'Rock Progressivo', 'Álbum': 'A Night at the Opera'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "Reino da Adição": [
+        "Terra dos Números",
+        "Ilha das Somas",
+        "Planície dos Totais",
+        "Vale dos Acréscimos"
+      ],
+      "Reino da Subtração": [
+        "Terra dos Diminuídos",
+        "Ilha das Diferenças",
+        "Planície dos Restos",
+        "Vale dos Decrescimentos"
+      ],
+      "Reino da Multiplicação": [
+        "Terra dos Produtos",
+        "Ilha dos Fatores",
+        "Planície dos Resultados",
+        "Vale dos Incrementos"
+      ],
+      "Reino da Divisão": [
+        "Terra dos Quocientes",
+        "Ilha dos Divisores",
+        "Planície das Partes",
+        "Vale das Frações"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 4 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 4.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - Reino da Adição: Terra dos Números, Ilha das Somas, Planície dos Totais, Vale dos Acréscimos.\n  - Reino da Subtração: Terra dos Diminuídos, Ilha das Diferenças, Planície dos Restos, Vale dos Decrescimentos.\n  - Reino da Multiplicação: Terra dos Produtos, Ilha dos Fatores, Planície dos Resultados, Vale dos Incrementos.\n  - Reino da Divisão: Terra dos Quocientes, Ilha dos Divisores, Planície das Partes, Vale das Frações.\n\nDicas do puzzle:\n1. Se um item tem Reino da Multiplicação igual a Vale dos Incrementos, então esse mesmo item tem Reino da Subtração igual a Vale dos Decrescimentos.\n2. Se um item tem Reino da Multiplicação igual a Vale dos Incrementos, então esse mesmo item tem Reino da Divisão igual a Vale das Frações.\n3. Se um item tem Reino da Divisão igual a Ilha dos Divisores, então esse mesmo item tem Reino da Adição igual a Ilha das Somas.\n4. Se um item tem Reino da Multiplicação igual a Terra dos Produtos, então esse mesmo item tem Reino da Adição igual a Terra dos Números.\n5. Se um item tem Reino da Divisão igual a Ilha dos Divisores, então pelo menos um dos itens vizinhos tem Reino da Adição igual a Planície dos Totais.\n6. O item com Reino da Divisão igual a Terra dos Quocientes está imediatamente à esquerda do item com Reino da Subtração igual a Ilha das Diferenças.\n7. Se um item tem Reino da Multiplicação igual a Planície dos Resultados, então pelo menos um dos itens vizinhos tem Reino da Divisão igual a Vale das Frações.\n8. O item com Reino da Subtração igual a Terra dos Diminuídos está imediatamente à esquerda do item com Reino da Adição igual a Ilha das Somas.\n\n\nPergunta Retroalimentada: Qual é o resultado final deduzido?",
+    "deduction": [
+      "1. O item 3 tem Reino da Divisão igual a Planície das Partes.",
+      "2. O item 2 tem Reino da Divisão igual a Ilha dos Divisores.",
+      "3. O item 2 tem Reino da Adição igual a Ilha das Somas.",
+      "4. O item 4 tem Reino da Divisão igual a Vale das Frações.",
+      "5. Se um item tem Reino da Multiplicação igual a Vale dos Incrementos, então esse mesmo item tem Reino da Subtração igual a Vale dos Decrescimentos.",
+      "6. Se um item tem Reino da Multiplicação igual a Vale dos Incrementos, então esse mesmo item tem Reino da Divisão igual a Vale das Frações.",
+      "7. Se um item tem Reino da Divisão igual a Ilha dos Divisores, então esse mesmo item tem Reino da Adição igual a Ilha das Somas.",
+      "8. Se um item tem Reino da Multiplicação igual a Terra dos Produtos, então esse mesmo item tem Reino da Adição igual a Terra dos Números.",
+      "9. Se um item tem Reino da Divisão igual a Ilha dos Divisores, então pelo menos um dos itens vizinhos tem Reino da Adição igual a Planície dos Totais.",
+      "10. O item com Reino da Divisão igual a Terra dos Quocientes está imediatamente à esquerda do item com Reino da Subtração igual a Ilha das Diferenças.",
+      "11. Se um item tem Reino da Multiplicação igual a Planície dos Resultados, então pelo menos um dos itens vizinhos tem Reino da Divisão igual a Vale das Frações.",
+      "12. O item com Reino da Subtração igual a Terra dos Diminuídos está imediatamente à esquerda do item com Reino da Adição igual a Ilha das Somas."
+    ],
+    "feedback_question": "Qual é o resultado final deduzido?",
+    "correct_answer": "",
+    "solution": [
+      {
+        "Reino da Adição": "Terra dos Números",
+        "Reino da Subtração": "Terra dos Diminuídos",
+        "Reino da Multiplicação": "Terra dos Produtos",
+        "Reino da Divisão": "Terra dos Quocientes"
+      },
+      {
+        "Reino da Adição": "Ilha das Somas",
+        "Reino da Subtração": "Ilha das Diferenças",
+        "Reino da Multiplicação": "Ilha dos Fatores",
+        "Reino da Divisão": "Ilha dos Divisores"
+      },
+      {
+        "Reino da Adição": "Planície dos Totais",
+        "Reino da Subtração": "Planície dos Restos",
+        "Reino da Multiplicação": "Planície dos Resultados",
+        "Reino da Divisão": "Planície das Partes"
+      },
+      {
+        "Reino da Adição": "Vale dos Acréscimos",
+        "Reino da Subtração": "Vale dos Decrescimentos",
+        "Reino da Multiplicação": "Vale dos Incrementos",
+        "Reino da Divisão": "Vale das Frações"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'Reino da Adição': 'Terra dos Números', 'Reino da Subtração': 'Terra dos Diminuídos', 'Reino da Multiplicação': 'Terra dos Produtos', 'Reino da Divisão': 'Terra dos Quocientes'}",
+      "Atribuindo item 2: {'Reino da Adição': 'Ilha das Somas', 'Reino da Subtração': 'Ilha das Diferenças', 'Reino da Multiplicação': 'Ilha dos Fatores', 'Reino da Divisão': 'Ilha dos Divisores'}",
+      "Atribuindo item 3: {'Reino da Adição': 'Planície dos Totais', 'Reino da Subtração': 'Planície dos Restos', 'Reino da Multiplicação': 'Planície dos Resultados', 'Reino da Divisão': 'Planície das Partes'}",
+      "Atribuindo item 4: {'Reino da Adição': 'Vale dos Acréscimos', 'Reino da Subtração': 'Vale dos Decrescimentos', 'Reino da Multiplicação': 'Vale dos Incrementos', 'Reino da Divisão': 'Vale das Frações'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "Compositor1": [
+        "Ludwig van Beethoven",
+        "Wolfgang Amadeus Mozart",
+        "Johann Sebastian Bach",
+        "Pyotr Ilyich Tchaikovsky",
+        "Frédéric Chopin"
+      ],
+      "Obras1": [
+        "Sinfonia Nº 5",
+        "Requiem",
+        "Tocata e Fuga em Ré Menor",
+        "Lago dos Cisnes",
+        "Nocturne Op. 9 No. 2"
+      ],
+      "Compositor2": [
+        "Antonio Vivaldi",
+        "Giuseppe Verdi",
+        "Johannes Brahms",
+        "Claude Debussy",
+        "Robert Schumann"
+      ],
+      "Obras2": [
+        "As Quatro Estações",
+        "La Traviata",
+        "Sinfonia Nº 4",
+        "Clair de Lune",
+        "Carnaval, Op. 9"
+      ],
+      "Compositor3": [
+        "Gioachino Rossini",
+        "Richard Wagner",
+        "Sergei Rachmaninoff",
+        "Maurice Ravel",
+        "Dmitri Shostakovich"
+      ],
+      "Obras3": [
+        "Guilherme Tell",
+        "Der Ring des Nibelungen",
+        "Rapsódia sobre um Tema de Paganini",
+        "Boléro",
+        "Sinfonia Nº 5"
+      ],
+      "Compositor4": [
+        "Franz Schubert",
+        "Giacomo Puccini",
+        "Felix Mendelssohn",
+        "Edvard Grieg",
+        "Gustav Mahler"
+      ],
+      "Obras4": [
+        "Ave Maria",
+        "La Bohème",
+        "Concerto para Violino em Mi Menor",
+        "Peer Gynt Suite No. 1",
+        "Sinfonia Nº 5"
+      ],
+      "Compositor5": [
+        "George Frideric Handel",
+        "Henry Purcell",
+        "Camille Saint-Saëns",
+        "Nikolai Rimsky-Korsakov",
+        "Modest Mussorgsky"
+      ],
+      "Obras5": [
+        "Messias",
+        "Dido e Eneias",
+        "Carneval dos Animais",
+        "Capricho Espanhol",
+        "Quadros de uma Exposição"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 5 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 5.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - Compositor1: Ludwig van Beethoven, Wolfgang Amadeus Mozart, Johann Sebastian Bach, Pyotr Ilyich Tchaikovsky, Frédéric Chopin.\n  - Obras1: Sinfonia Nº 5, Requiem, Tocata e Fuga em Ré Menor, Lago dos Cisnes, Nocturne Op. 9 No. 2.\n  - Compositor2: Antonio Vivaldi, Giuseppe Verdi, Johannes Brahms, Claude Debussy, Robert Schumann.\n  - Obras2: As Quatro Estações, La Traviata, Sinfonia Nº 4, Clair de Lune, Carnaval, Op. 9.\n  - Compositor3: Gioachino Rossini, Richard Wagner, Sergei Rachmaninoff, Maurice Ravel, Dmitri Shostakovich.\n  - Obras3: Guilherme Tell, Der Ring des Nibelungen, Rapsódia sobre um Tema de Paganini, Boléro, Sinfonia Nº 5.\n  - Compositor4: Franz Schubert, Giacomo Puccini, Felix Mendelssohn, Edvard Grieg, Gustav Mahler.\n  - Obras4: Ave Maria, La Bohème, Concerto para Violino em Mi Menor, Peer Gynt Suite No. 1, Sinfonia Nº 5.\n  - Compositor5: George Frideric Handel, Henry Purcell, Camille Saint-Saëns, Nikolai Rimsky-Korsakov, Modest Mussorgsky.\n  - Obras5: Messias, Dido e Eneias, Carneval dos Animais, Capricho Espanhol, Quadros de uma Exposição.\n\nDicas do puzzle:\n1. Se um item tem Compositor2 igual a Giuseppe Verdi, então esse mesmo item tem Obras3 igual a Der Ring des Nibelungen.\n2. Se um item tem Compositor5 igual a George Frideric Handel, então esse mesmo item tem Compositor2 igual a Antonio Vivaldi.\n3. Se um item tem Obras4 igual a La Bohème, então esse mesmo item tem Obras3 igual a Der Ring des Nibelungen.\n4. Se um item tem Obras2 igual a Sinfonia Nº 4, então esse mesmo item tem Compositor1 igual a Johann Sebastian Bach.\n5. Se um item tem Obras1 igual a Sinfonia Nº 5, então esse mesmo item tem Compositor2 igual a Antonio Vivaldi.\n6. O item com Obras1 igual a Sinfonia Nº 5 está imediatamente à esquerda do item com Obras4 igual a La Bohème.\n7. Se um item tem Obras3 igual a Der Ring des Nibelungen, então pelo menos um dos itens vizinhos tem Compositor2 igual a Johannes Brahms.\n8. O item com Compositor3 igual a Richard Wagner está imediatamente à esquerda do item com Obras1 igual a Tocata e Fuga em Ré Menor.\n9. Se um item tem Obras1 igual a Nocturne Op. 9 No. 2, então pelo menos um dos itens vizinhos tem Compositor2 igual a Claude Debussy.\n10. Se um item tem Compositor1 igual a Pyotr Ilyich Tchaikovsky, então pelo menos um dos itens vizinhos tem Compositor4 igual a Gustav Mahler.\n\n\nPergunta Retroalimentada: Com base na dedução, quem é vizinho do item com Compositor1 igual a Pyotr Ilyich Tchaikovsky?",
+    "deduction": [
+      "1. O item 3 tem Obras4 igual a Concerto para Violino em Mi Menor.",
+      "2. O item 3 tem Compositor1 igual a Johann Sebastian Bach.",
+      "3. O item 4 tem Obras5 igual a Capricho Espanhol.",
+      "4. O item 5 tem Obras4 igual a Sinfonia Nº 5.",
+      "5. O item 3 tem Obras1 igual a Tocata e Fuga em Ré Menor.",
+      "6. Se um item tem Compositor2 igual a Giuseppe Verdi, então esse mesmo item tem Obras3 igual a Der Ring des Nibelungen.",
+      "7. Se um item tem Compositor5 igual a George Frideric Handel, então esse mesmo item tem Compositor2 igual a Antonio Vivaldi.",
+      "8. Se um item tem Obras4 igual a La Bohème, então esse mesmo item tem Obras3 igual a Der Ring des Nibelungen.",
+      "9. Se um item tem Obras2 igual a Sinfonia Nº 4, então esse mesmo item tem Compositor1 igual a Johann Sebastian Bach.",
+      "10. Se um item tem Obras1 igual a Sinfonia Nº 5, então esse mesmo item tem Compositor2 igual a Antonio Vivaldi.",
+      "11. O item com Obras1 igual a Sinfonia Nº 5 está imediatamente à esquerda do item com Obras4 igual a La Bohème.",
+      "12. Se um item tem Obras3 igual a Der Ring des Nibelungen, então pelo menos um dos itens vizinhos tem Compositor2 igual a Johannes Brahms.",
+      "13. O item com Compositor3 igual a Richard Wagner está imediatamente à esquerda do item com Obras1 igual a Tocata e Fuga em Ré Menor.",
+      "14. Se um item tem Obras1 igual a Nocturne Op. 9 No. 2, então pelo menos um dos itens vizinhos tem Compositor2 igual a Claude Debussy.",
+      "15. Se um item tem Compositor1 igual a Pyotr Ilyich Tchaikovsky, então pelo menos um dos itens vizinhos tem Compositor4 igual a Gustav Mahler."
+    ],
+    "feedback_question": "Com base na dedução, quem é vizinho do item com Compositor1 igual a Pyotr Ilyich Tchaikovsky?",
+    "correct_answer": "Solução Final:\nItem 1: Compositor1: Ludwig van Beethoven, Obras1: Sinfonia Nº 5, Compositor2: Antonio Vivaldi, Obras2: As Quatro Estações, Compositor3: Gioachino Rossini, Obras3: Guilherme Tell, Compositor4: Franz Schubert, Obras4: Ave Maria, Compositor5: George Frideric Handel, Obras5: Messias\nItem 2: Compositor1: Wolfgang Amadeus Mozart, Obras1: Requiem, Compositor2: Giuseppe Verdi, Obras2: La Traviata, Compositor3: Richard Wagner, Obras3: Der Ring des Nibelungen, Compositor4: Giacomo Puccini, Obras4: La Bohème, Compositor5: Henry Purcell, Obras5: Dido e Eneias\nItem 3: Compositor1: Johann Sebastian Bach, Obras1: Tocata e Fuga em Ré Menor, Compositor2: Johannes Brahms, Obras2: Sinfonia Nº 4, Compositor3: Sergei Rachmaninoff, Obras3: Rapsódia sobre um Tema de Paganini, Compositor4: Felix Mendelssohn, Obras4: Concerto para Violino em Mi Menor, Compositor5: Camille Saint-Saëns, Obras5: Carneval dos Animais\nItem 4: Compositor1: Pyotr Ilyich Tchaikovsky, Obras1: Lago dos Cisnes, Compositor2: Claude Debussy, Obras2: Clair de Lune, Compositor3: Maurice Ravel, Obras3: Boléro, Compositor4: Edvard Grieg, Obras4: Peer Gynt Suite No. 1, Compositor5: Nikolai Rimsky-Korsakov, Obras5: Capricho Espanhol\nItem 5: Compositor1: Frédéric Chopin, Obras1: Nocturne Op. 9 No. 2, Compositor2: Robert Schumann, Obras2: Carnaval, Op. 9, Compositor3: Dmitri Shostakovich, Obras3: Sinfonia Nº 5, Compositor4: Gustav Mahler, Obras4: Sinfonia Nº 5, Compositor5: Modest Mussorgsky, Obras5: Quadros de uma Exposição\n\nResposta: O item vizinho possui Compositor4 igual a Gustav Mahler.",
+    "solution": [
+      {
+        "Compositor1": "Ludwig van Beethoven",
+        "Obras1": "Sinfonia Nº 5",
+        "Compositor2": "Antonio Vivaldi",
+        "Obras2": "As Quatro Estações",
+        "Compositor3": "Gioachino Rossini",
+        "Obras3": "Guilherme Tell",
+        "Compositor4": "Franz Schubert",
+        "Obras4": "Ave Maria",
+        "Compositor5": "George Frideric Handel",
+        "Obras5": "Messias"
+      },
+      {
+        "Compositor1": "Wolfgang Amadeus Mozart",
+        "Obras1": "Requiem",
+        "Compositor2": "Giuseppe Verdi",
+        "Obras2": "La Traviata",
+        "Compositor3": "Richard Wagner",
+        "Obras3": "Der Ring des Nibelungen",
+        "Compositor4": "Giacomo Puccini",
+        "Obras4": "La Bohème",
+        "Compositor5": "Henry Purcell",
+        "Obras5": "Dido e Eneias"
+      },
+      {
+        "Compositor1": "Johann Sebastian Bach",
+        "Obras1": "Tocata e Fuga em Ré Menor",
+        "Compositor2": "Johannes Brahms",
+        "Obras2": "Sinfonia Nº 4",
+        "Compositor3": "Sergei Rachmaninoff",
+        "Obras3": "Rapsódia sobre um Tema de Paganini",
+        "Compositor4": "Felix Mendelssohn",
+        "Obras4": "Concerto para Violino em Mi Menor",
+        "Compositor5": "Camille Saint-Saëns",
+        "Obras5": "Carneval dos Animais"
+      },
+      {
+        "Compositor1": "Pyotr Ilyich Tchaikovsky",
+        "Obras1": "Lago dos Cisnes",
+        "Compositor2": "Claude Debussy",
+        "Obras2": "Clair de Lune",
+        "Compositor3": "Maurice Ravel",
+        "Obras3": "Boléro",
+        "Compositor4": "Edvard Grieg",
+        "Obras4": "Peer Gynt Suite No. 1",
+        "Compositor5": "Nikolai Rimsky-Korsakov",
+        "Obras5": "Capricho Espanhol"
+      },
+      {
+        "Compositor1": "Frédéric Chopin",
+        "Obras1": "Nocturne Op. 9 No. 2",
+        "Compositor2": "Robert Schumann",
+        "Obras2": "Carnaval, Op. 9",
+        "Compositor3": "Dmitri Shostakovich",
+        "Obras3": "Sinfonia Nº 5",
+        "Compositor4": "Gustav Mahler",
+        "Obras4": "Sinfonia Nº 5",
+        "Compositor5": "Modest Mussorgsky",
+        "Obras5": "Quadros de uma Exposição"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'Compositor1': 'Ludwig van Beethoven', 'Obras1': 'Sinfonia Nº 5', 'Compositor2': 'Antonio Vivaldi', 'Obras2': 'As Quatro Estações', 'Compositor3': 'Gioachino Rossini', 'Obras3': 'Guilherme Tell', 'Compositor4': 'Franz Schubert', 'Obras4': 'Ave Maria', 'Compositor5': 'George Frideric Handel', 'Obras5': 'Messias'}",
+      "Atribuindo item 2: {'Compositor1': 'Wolfgang Amadeus Mozart', 'Obras1': 'Requiem', 'Compositor2': 'Giuseppe Verdi', 'Obras2': 'La Traviata', 'Compositor3': 'Richard Wagner', 'Obras3': 'Der Ring des Nibelungen', 'Compositor4': 'Giacomo Puccini', 'Obras4': 'La Bohème', 'Compositor5': 'Henry Purcell', 'Obras5': 'Dido e Eneias'}",
+      "Atribuindo item 3: {'Compositor1': 'Johann Sebastian Bach', 'Obras1': 'Tocata e Fuga em Ré Menor', 'Compositor2': 'Johannes Brahms', 'Obras2': 'Sinfonia Nº 4', 'Compositor3': 'Sergei Rachmaninoff', 'Obras3': 'Rapsódia sobre um Tema de Paganini', 'Compositor4': 'Felix Mendelssohn', 'Obras4': 'Concerto para Violino em Mi Menor', 'Compositor5': 'Camille Saint-Saëns', 'Obras5': 'Carneval dos Animais'}",
+      "Atribuindo item 4: {'Compositor1': 'Pyotr Ilyich Tchaikovsky', 'Obras1': 'Lago dos Cisnes', 'Compositor2': 'Claude Debussy', 'Obras2': 'Clair de Lune', 'Compositor3': 'Maurice Ravel', 'Obras3': 'Boléro', 'Compositor4': 'Edvard Grieg', 'Obras4': 'Peer Gynt Suite No. 1', 'Compositor5': 'Nikolai Rimsky-Korsakov', 'Obras5': 'Capricho Espanhol'}",
+      "Atribuindo item 5: {'Compositor1': 'Frédéric Chopin', 'Obras1': 'Nocturne Op. 9 No. 2', 'Compositor2': 'Robert Schumann', 'Obras2': 'Carnaval, Op. 9', 'Compositor3': 'Dmitri Shostakovich', 'Obras3': 'Sinfonia Nº 5', 'Compositor4': 'Gustav Mahler', 'Obras4': 'Sinfonia Nº 5', 'Compositor5': 'Modest Mussorgsky', 'Obras5': 'Quadros de uma Exposição'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "GeneroMusical": [
+        "Clássica",
+        "Rock",
+        "Pop"
+      ],
+      "Compositor": [
+        "Beethoven",
+        "The Beatles",
+        "Michael Jackson"
+      ],
+      "NomeDaMusica": [
+        "Sinfonia Nº 5",
+        "Hey Jude",
+        "Billie Jean"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 3 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 3.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - GeneroMusical: Clássica, Rock, Pop.\n  - Compositor: Beethoven, The Beatles, Michael Jackson.\n  - NomeDaMusica: Sinfonia Nº 5, Hey Jude, Billie Jean.\n\nDicas do puzzle:\n1. Se um item tem GeneroMusical igual a Pop, então esse mesmo item tem NomeDaMusica igual a Billie Jean.\n2. Se um item tem GeneroMusical igual a Rock, então esse mesmo item tem NomeDaMusica igual a Hey Jude.\n3. Se um item tem GeneroMusical igual a Rock, então esse mesmo item tem Compositor igual a The Beatles.\n4. O item com GeneroMusical igual a Rock está imediatamente à esquerda do item com Compositor igual a Michael Jackson.\n5. O item com Compositor igual a The Beatles está imediatamente à esquerda do item com GeneroMusical igual a Pop.\n6. Se um item tem NomeDaMusica igual a Billie Jean, então pelo menos um dos itens vizinhos tem Compositor igual a The Beatles.\n\n\nPergunta Retroalimentada: Com base na dedução, quem é vizinho do item com NomeDaMusica igual a Billie Jean?",
+    "deduction": [
+      "1. O item 1 tem GeneroMusical igual a Clássica.",
+      "2. O item 2 tem NomeDaMusica igual a Hey Jude.",
+      "3. O item 2 tem Compositor igual a The Beatles.",
+      "4. Se um item tem GeneroMusical igual a Pop, então esse mesmo item tem NomeDaMusica igual a Billie Jean.",
+      "5. Se um item tem GeneroMusical igual a Rock, então esse mesmo item tem NomeDaMusica igual a Hey Jude.",
+      "6. Se um item tem GeneroMusical igual a Rock, então esse mesmo item tem Compositor igual a The Beatles.",
+      "7. O item com GeneroMusical igual a Rock está imediatamente à esquerda do item com Compositor igual a Michael Jackson.",
+      "8. O item com Compositor igual a The Beatles está imediatamente à esquerda do item com GeneroMusical igual a Pop.",
+      "9. Se um item tem NomeDaMusica igual a Billie Jean, então pelo menos um dos itens vizinhos tem Compositor igual a The Beatles."
+    ],
+    "feedback_question": "Com base na dedução, quem é vizinho do item com NomeDaMusica igual a Billie Jean?",
+    "correct_answer": "Solução Final:\nItem 1: GeneroMusical: Clássica, Compositor: Beethoven, NomeDaMusica: Sinfonia Nº 5\nItem 2: GeneroMusical: Rock, Compositor: The Beatles, NomeDaMusica: Hey Jude\nItem 3: GeneroMusical: Pop, Compositor: Michael Jackson, NomeDaMusica: Billie Jean\n\nResposta: O item vizinho possui Compositor igual a The Beatles.",
+    "solution": [
+      {
+        "GeneroMusical": "Clássica",
+        "Compositor": "Beethoven",
+        "NomeDaMusica": "Sinfonia Nº 5"
+      },
+      {
+        "GeneroMusical": "Rock",
+        "Compositor": "The Beatles",
+        "NomeDaMusica": "Hey Jude"
+      },
+      {
+        "GeneroMusical": "Pop",
+        "Compositor": "Michael Jackson",
+        "NomeDaMusica": "Billie Jean"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'GeneroMusical': 'Clássica', 'Compositor': 'Beethoven', 'NomeDaMusica': 'Sinfonia Nº 5'}",
+      "Atribuindo item 2: {'GeneroMusical': 'Rock', 'Compositor': 'The Beatles', 'NomeDaMusica': 'Hey Jude'}",
+      "Atribuindo item 3: {'GeneroMusical': 'Pop', 'Compositor': 'Michael Jackson', 'NomeDaMusica': 'Billie Jean'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "Artista": [
+        "Elvis Presley",
+        "The Beatles",
+        "Queen"
+      ],
+      "Álbum": [
+        "Thriller",
+        "Abbey Road",
+        "A Night at the Opera"
+      ],
+      "Canção": [
+        "Billie Jean",
+        "Hey Jude",
+        "Bohemian Rhapsody"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 3 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 3.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - Artista: Elvis Presley, The Beatles, Queen.\n  - Álbum: Thriller, Abbey Road, A Night at the Opera.\n  - Canção: Billie Jean, Hey Jude, Bohemian Rhapsody.\n\nDicas do puzzle:\n1. Se um item tem Artista igual a The Beatles, então esse mesmo item tem Canção igual a Hey Jude.\n2. Se um item tem Álbum igual a A Night at the Opera, então esse mesmo item tem Canção igual a Bohemian Rhapsody.\n3. Se um item tem Artista igual a Elvis Presley, então esse mesmo item tem Canção igual a Billie Jean.\n4. O item com Artista igual a The Beatles está imediatamente à esquerda do item com Álbum igual a A Night at the Opera.\n5. Se um item tem Artista igual a The Beatles, então pelo menos um dos itens vizinhos tem Canção igual a Billie Jean.\n6. Se um item tem Canção igual a Hey Jude, então pelo menos um dos itens vizinhos tem Artista igual a Elvis Presley.\n\n\nPergunta Retroalimentada: Com base na dedução, quem é vizinho do item com Canção igual a Hey Jude?",
+    "deduction": [
+      "1. O item 3 tem Artista igual a Queen.",
+      "2. O item 1 tem Artista igual a Elvis Presley.",
+      "3. O item 2 tem Canção igual a Hey Jude.",
+      "4. Se um item tem Artista igual a The Beatles, então esse mesmo item tem Canção igual a Hey Jude.",
+      "5. Se um item tem Álbum igual a A Night at the Opera, então esse mesmo item tem Canção igual a Bohemian Rhapsody.",
+      "6. Se um item tem Artista igual a Elvis Presley, então esse mesmo item tem Canção igual a Billie Jean.",
+      "7. O item com Artista igual a The Beatles está imediatamente à esquerda do item com Álbum igual a A Night at the Opera.",
+      "8. Se um item tem Artista igual a The Beatles, então pelo menos um dos itens vizinhos tem Canção igual a Billie Jean.",
+      "9. Se um item tem Canção igual a Hey Jude, então pelo menos um dos itens vizinhos tem Artista igual a Elvis Presley."
+    ],
+    "feedback_question": "Com base na dedução, quem é vizinho do item com Canção igual a Hey Jude?",
+    "correct_answer": "Solução Final:\nItem 1: Artista: Elvis Presley, Álbum: Thriller, Canção: Billie Jean\nItem 2: Artista: The Beatles, Álbum: Abbey Road, Canção: Hey Jude\nItem 3: Artista: Queen, Álbum: A Night at the Opera, Canção: Bohemian Rhapsody\n\nResposta: O item vizinho possui Artista igual a Elvis Presley.",
+    "solution": [
+      {
+        "Artista": "Elvis Presley",
+        "Álbum": "Thriller",
+        "Canção": "Billie Jean"
+      },
+      {
+        "Artista": "The Beatles",
+        "Álbum": "Abbey Road",
+        "Canção": "Hey Jude"
+      },
+      {
+        "Artista": "Queen",
+        "Álbum": "A Night at the Opera",
+        "Canção": "Bohemian Rhapsody"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'Artista': 'Elvis Presley', 'Álbum': 'Thriller', 'Canção': 'Billie Jean'}",
+      "Atribuindo item 2: {'Artista': 'The Beatles', 'Álbum': 'Abbey Road', 'Canção': 'Hey Jude'}",
+      "Atribuindo item 3: {'Artista': 'Queen', 'Álbum': 'A Night at the Opera', 'Canção': 'Bohemian Rhapsody'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "Artista1": [
+        "Beatles",
+        "Elvis Presley",
+        "Queen"
+      ],
+      "Musica1": [
+        "Yesterday",
+        "Jailhouse Rock",
+        "Bohemian Rhapsody"
+      ],
+      "Album1": [
+        "Help!",
+        "Blue Hawaii",
+        "A Night at the Opera"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 3 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 3.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - Artista1: Beatles, Elvis Presley, Queen.\n  - Musica1: Yesterday, Jailhouse Rock, Bohemian Rhapsody.\n  - Album1: Help!, Blue Hawaii, A Night at the Opera.\n\nDicas do puzzle:\n1. Se um item tem Musica1 igual a Jailhouse Rock, então esse mesmo item tem Artista1 igual a Elvis Presley.\n2. Se um item tem Album1 igual a Blue Hawaii, então esse mesmo item tem Musica1 igual a Jailhouse Rock.\n3. Se um item tem Artista1 igual a Queen, então esse mesmo item tem Album1 igual a A Night at the Opera.\n4. Se um item tem Musica1 igual a Bohemian Rhapsody, então pelo menos um dos itens vizinhos tem Artista1 igual a Elvis Presley.\n5. O item com Musica1 igual a Jailhouse Rock está imediatamente à esquerda do item com Artista1 igual a Queen.\n6. Se um item tem Artista1 igual a Elvis Presley, então pelo menos um dos itens vizinhos tem Musica1 igual a Yesterday.\n\n\nPergunta Retroalimentada: Com base na dedução, quem é vizinho do item com Artista1 igual a Elvis Presley?",
+    "deduction": [
+      "1. O item 2 tem Album1 igual a Blue Hawaii.",
+      "2. O item 1 tem Artista1 igual a Beatles.",
+      "3. O item 3 tem Album1 igual a A Night at the Opera.",
+      "4. Se um item tem Musica1 igual a Jailhouse Rock, então esse mesmo item tem Artista1 igual a Elvis Presley.",
+      "5. Se um item tem Album1 igual a Blue Hawaii, então esse mesmo item tem Musica1 igual a Jailhouse Rock.",
+      "6. Se um item tem Artista1 igual a Queen, então esse mesmo item tem Album1 igual a A Night at the Opera.",
+      "7. Se um item tem Musica1 igual a Bohemian Rhapsody, então pelo menos um dos itens vizinhos tem Artista1 igual a Elvis Presley.",
+      "8. O item com Musica1 igual a Jailhouse Rock está imediatamente à esquerda do item com Artista1 igual a Queen.",
+      "9. Se um item tem Artista1 igual a Elvis Presley, então pelo menos um dos itens vizinhos tem Musica1 igual a Yesterday."
+    ],
+    "feedback_question": "Com base na dedução, quem é vizinho do item com Artista1 igual a Elvis Presley?",
+    "correct_answer": "Solução Final:\nItem 1: Artista1: Beatles, Musica1: Yesterday, Album1: Help!\nItem 2: Artista1: Elvis Presley, Musica1: Jailhouse Rock, Album1: Blue Hawaii\nItem 3: Artista1: Queen, Musica1: Bohemian Rhapsody, Album1: A Night at the Opera\n\nResposta: O item vizinho possui Musica1 igual a Yesterday.",
+    "solution": [
+      {
+        "Artista1": "Beatles",
+        "Musica1": "Yesterday",
+        "Album1": "Help!"
+      },
+      {
+        "Artista1": "Elvis Presley",
+        "Musica1": "Jailhouse Rock",
+        "Album1": "Blue Hawaii"
+      },
+      {
+        "Artista1": "Queen",
+        "Musica1": "Bohemian Rhapsody",
+        "Album1": "A Night at the Opera"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'Artista1': 'Beatles', 'Musica1': 'Yesterday', 'Album1': 'Help!'}",
+      "Atribuindo item 2: {'Artista1': 'Elvis Presley', 'Musica1': 'Jailhouse Rock', 'Album1': 'Blue Hawaii'}",
+      "Atribuindo item 3: {'Artista1': 'Queen', 'Musica1': 'Bohemian Rhapsody', 'Album1': 'A Night at the Opera'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "Banda1": [
+        "The Beatles",
+        "Queen",
+        "U2",
+        "Coldplay",
+        "AC/DC"
+      ],
+      "Banda2": [
+        "Red Hot Chili Peppers",
+        "Guns N' Roses",
+        "Nirvana",
+        "Metallica",
+        "Pink Floyd"
+      ],
+      "Artista1": [
+        "Elvis Presley",
+        "Michael Jackson",
+        "Freddie Mercury",
+        "David Bowie",
+        "Bob Dylan"
+      ],
+      "Artista2": [
+        "Adele",
+        "Beyoncé",
+        "Taylor Swift",
+        "Ed Sheeran",
+        "Lady Gaga"
+      ],
+      "Música1": [
+        "Hey Jude",
+        "Bohemian Rhapsody",
+        "With or Without You",
+        "Yellow",
+        "Back in Black"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 5 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 5.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - Banda1: The Beatles, Queen, U2, Coldplay, AC/DC.\n  - Banda2: Red Hot Chili Peppers, Guns N' Roses, Nirvana, Metallica, Pink Floyd.\n  - Artista1: Elvis Presley, Michael Jackson, Freddie Mercury, David Bowie, Bob Dylan.\n  - Artista2: Adele, Beyoncé, Taylor Swift, Ed Sheeran, Lady Gaga.\n  - Música1: Hey Jude, Bohemian Rhapsody, With or Without You, Yellow, Back in Black.\n\nDicas do puzzle:\n1. Se um item tem Banda2 igual a Red Hot Chili Peppers, então esse mesmo item tem Música1 igual a Hey Jude.\n2. Se um item tem Música1 igual a Hey Jude, então esse mesmo item tem Artista1 igual a Elvis Presley.\n3. Se um item tem Artista1 igual a Bob Dylan, então esse mesmo item tem Banda2 igual a Pink Floyd.\n4. Se um item tem Artista2 igual a Lady Gaga, então esse mesmo item tem Música1 igual a Back in Black.\n5. Se um item tem Artista2 igual a Lady Gaga, então esse mesmo item tem Banda2 igual a Pink Floyd.\n6. Se um item tem Música1 igual a Yellow, então pelo menos um dos itens vizinhos tem Artista2 igual a Lady Gaga.\n7. O item com Artista1 igual a Michael Jackson está imediatamente à esquerda do item com Artista2 igual a Taylor Swift.\n8. Se um item tem Artista1 igual a Bob Dylan, então pelo menos um dos itens vizinhos tem Banda1 igual a Coldplay.\n9. Se um item tem Artista2 igual a Lady Gaga, então pelo menos um dos itens vizinhos tem Artista1 igual a David Bowie.\n10. Se um item tem Banda1 igual a Queen, então pelo menos um dos itens vizinhos tem Artista2 igual a Taylor Swift.\n\n\nPergunta Retroalimentada: Com base na dedução, quem é vizinho do item com Banda1 igual a Queen?",
+    "deduction": [
+      "1. O item 2 tem Artista1 igual a Michael Jackson.",
+      "2. O item 5 tem Banda2 igual a Pink Floyd.",
+      "3. O item 2 tem Música1 igual a Bohemian Rhapsody.",
+      "4. O item 5 tem Música1 igual a Back in Black.",
+      "5. O item 3 tem Música1 igual a With or Without You.",
+      "6. Se um item tem Banda2 igual a Red Hot Chili Peppers, então esse mesmo item tem Música1 igual a Hey Jude.",
+      "7. Se um item tem Música1 igual a Hey Jude, então esse mesmo item tem Artista1 igual a Elvis Presley.",
+      "8. Se um item tem Artista1 igual a Bob Dylan, então esse mesmo item tem Banda2 igual a Pink Floyd.",
+      "9. Se um item tem Artista2 igual a Lady Gaga, então esse mesmo item tem Música1 igual a Back in Black.",
+      "10. Se um item tem Artista2 igual a Lady Gaga, então esse mesmo item tem Banda2 igual a Pink Floyd.",
+      "11. Se um item tem Música1 igual a Yellow, então pelo menos um dos itens vizinhos tem Artista2 igual a Lady Gaga.",
+      "12. O item com Artista1 igual a Michael Jackson está imediatamente à esquerda do item com Artista2 igual a Taylor Swift.",
+      "13. Se um item tem Artista1 igual a Bob Dylan, então pelo menos um dos itens vizinhos tem Banda1 igual a Coldplay.",
+      "14. Se um item tem Artista2 igual a Lady Gaga, então pelo menos um dos itens vizinhos tem Artista1 igual a David Bowie.",
+      "15. Se um item tem Banda1 igual a Queen, então pelo menos um dos itens vizinhos tem Artista2 igual a Taylor Swift."
+    ],
+    "feedback_question": "Com base na dedução, quem é vizinho do item com Banda1 igual a Queen?",
+    "correct_answer": "Solução Final:\nItem 1: Banda1: The Beatles, Banda2: Red Hot Chili Peppers, Artista1: Elvis Presley, Artista2: Adele, Música1: Hey Jude\nItem 2: Banda1: Queen, Banda2: Guns N' Roses, Artista1: Michael Jackson, Artista2: Beyoncé, Música1: Bohemian Rhapsody\nItem 3: Banda1: U2, Banda2: Nirvana, Artista1: Freddie Mercury, Artista2: Taylor Swift, Música1: With or Without You\nItem 4: Banda1: Coldplay, Banda2: Metallica, Artista1: David Bowie, Artista2: Ed Sheeran, Música1: Yellow\nItem 5: Banda1: AC/DC, Banda2: Pink Floyd, Artista1: Bob Dylan, Artista2: Lady Gaga, Música1: Back in Black\n\nResposta: O item vizinho possui Artista2 igual a Taylor Swift.",
+    "solution": [
+      {
+        "Banda1": "The Beatles",
+        "Banda2": "Red Hot Chili Peppers",
+        "Artista1": "Elvis Presley",
+        "Artista2": "Adele",
+        "Música1": "Hey Jude"
+      },
+      {
+        "Banda1": "Queen",
+        "Banda2": "Guns N' Roses",
+        "Artista1": "Michael Jackson",
+        "Artista2": "Beyoncé",
+        "Música1": "Bohemian Rhapsody"
+      },
+      {
+        "Banda1": "U2",
+        "Banda2": "Nirvana",
+        "Artista1": "Freddie Mercury",
+        "Artista2": "Taylor Swift",
+        "Música1": "With or Without You"
+      },
+      {
+        "Banda1": "Coldplay",
+        "Banda2": "Metallica",
+        "Artista1": "David Bowie",
+        "Artista2": "Ed Sheeran",
+        "Música1": "Yellow"
+      },
+      {
+        "Banda1": "AC/DC",
+        "Banda2": "Pink Floyd",
+        "Artista1": "Bob Dylan",
+        "Artista2": "Lady Gaga",
+        "Música1": "Back in Black"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'Banda1': 'The Beatles', 'Banda2': 'Red Hot Chili Peppers', 'Artista1': 'Elvis Presley', 'Artista2': 'Adele', 'Música1': 'Hey Jude'}",
+      "Atribuindo item 2: {'Banda1': 'Queen', 'Banda2': \"Guns N' Roses\", 'Artista1': 'Michael Jackson', 'Artista2': 'Beyoncé', 'Música1': 'Bohemian Rhapsody'}",
+      "Atribuindo item 3: {'Banda1': 'U2', 'Banda2': 'Nirvana', 'Artista1': 'Freddie Mercury', 'Artista2': 'Taylor Swift', 'Música1': 'With or Without You'}",
+      "Atribuindo item 4: {'Banda1': 'Coldplay', 'Banda2': 'Metallica', 'Artista1': 'David Bowie', 'Artista2': 'Ed Sheeran', 'Música1': 'Yellow'}",
+      "Atribuindo item 5: {'Banda1': 'AC/DC', 'Banda2': 'Pink Floyd', 'Artista1': 'Bob Dylan', 'Artista2': 'Lady Gaga', 'Música1': 'Back in Black'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "ElementoMágico": [
+        "Cristal",
+        "Dragão",
+        "Fada",
+        "Neblina",
+        "Estrela"
+      ],
+      "CaracterísticaNatural": [
+        "FlorestaEncantada",
+        "PraiaDourada",
+        "MontanhaSagrada",
+        "LagoMístico",
+        "CachoeiraArcana"
+      ],
+      "SegredoEscondido": [
+        "TesouroAntigo",
+        "PortaSecreta",
+        "LabirintoEnfeitiçado",
+        "RuínasMísticas",
+        "MapaEncantado"
+      ],
+      "HabitanteMítico": [
+        "Sereia",
+        "Gnomo",
+        "Fênix",
+        "Ciclope",
+        "Duende"
+      ],
+      "EventoMágico": [
+        "EclipseLunar",
+        "ChuvaDeEstrelas",
+        "TempestadeArcana",
+        "AuroraBoreal",
+        "SolstícioMístico"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 5 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 5.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - ElementoMágico: Cristal, Dragão, Fada, Neblina, Estrela.\n  - CaracterísticaNatural: FlorestaEncantada, PraiaDourada, MontanhaSagrada, LagoMístico, CachoeiraArcana.\n  - SegredoEscondido: TesouroAntigo, PortaSecreta, LabirintoEnfeitiçado, RuínasMísticas, MapaEncantado.\n  - HabitanteMítico: Sereia, Gnomo, Fênix, Ciclope, Duende.\n  - EventoMágico: EclipseLunar, ChuvaDeEstrelas, TempestadeArcana, AuroraBoreal, SolstícioMístico.\n\nDicas do puzzle:\n1. Se um item tem EventoMágico igual a TempestadeArcana, então esse mesmo item tem CaracterísticaNatural igual a MontanhaSagrada.\n2. Se um item tem SegredoEscondido igual a TesouroAntigo, então esse mesmo item tem CaracterísticaNatural igual a FlorestaEncantada.\n3. Se um item tem ElementoMágico igual a Dragão, então esse mesmo item tem CaracterísticaNatural igual a PraiaDourada.\n4. Se um item tem HabitanteMítico igual a Ciclope, então esse mesmo item tem EventoMágico igual a AuroraBoreal.\n5. Se um item tem CaracterísticaNatural igual a FlorestaEncantada, então esse mesmo item tem HabitanteMítico igual a Sereia.\n6. O item com EventoMágico igual a AuroraBoreal está imediatamente à esquerda do item com CaracterísticaNatural igual a CachoeiraArcana.\n7. Se um item tem CaracterísticaNatural igual a LagoMístico, então pelo menos um dos itens vizinhos tem SegredoEscondido igual a MapaEncantado.\n8. Se um item tem HabitanteMítico igual a Ciclope, então pelo menos um dos itens vizinhos tem EventoMágico igual a SolstícioMístico.\n9. O item com CaracterísticaNatural igual a LagoMístico está imediatamente à esquerda do item com EventoMágico igual a SolstícioMístico.\n10. O item com EventoMágico igual a AuroraBoreal está imediatamente à esquerda do item com ElementoMágico igual a Estrela.\n\n\nPergunta Retroalimentada: Qual é o resultado final deduzido?",
+    "deduction": [
+      "1. O item 1 tem ElementoMágico igual a Cristal.",
+      "2. O item 5 tem ElementoMágico igual a Estrela.",
+      "3. O item 3 tem SegredoEscondido igual a LabirintoEnfeitiçado.",
+      "4. O item 1 tem CaracterísticaNatural igual a FlorestaEncantada.",
+      "5. O item 1 tem SegredoEscondido igual a TesouroAntigo.",
+      "6. Se um item tem EventoMágico igual a TempestadeArcana, então esse mesmo item tem CaracterísticaNatural igual a MontanhaSagrada.",
+      "7. Se um item tem SegredoEscondido igual a TesouroAntigo, então esse mesmo item tem CaracterísticaNatural igual a FlorestaEncantada.",
+      "8. Se um item tem ElementoMágico igual a Dragão, então esse mesmo item tem CaracterísticaNatural igual a PraiaDourada.",
+      "9. Se um item tem HabitanteMítico igual a Ciclope, então esse mesmo item tem EventoMágico igual a AuroraBoreal.",
+      "10. Se um item tem CaracterísticaNatural igual a FlorestaEncantada, então esse mesmo item tem HabitanteMítico igual a Sereia.",
+      "11. O item com EventoMágico igual a AuroraBoreal está imediatamente à esquerda do item com CaracterísticaNatural igual a CachoeiraArcana.",
+      "12. Se um item tem CaracterísticaNatural igual a LagoMístico, então pelo menos um dos itens vizinhos tem SegredoEscondido igual a MapaEncantado.",
+      "13. Se um item tem HabitanteMítico igual a Ciclope, então pelo menos um dos itens vizinhos tem EventoMágico igual a SolstícioMístico.",
+      "14. O item com CaracterísticaNatural igual a LagoMístico está imediatamente à esquerda do item com EventoMágico igual a SolstícioMístico.",
+      "15. O item com EventoMágico igual a AuroraBoreal está imediatamente à esquerda do item com ElementoMágico igual a Estrela."
+    ],
+    "feedback_question": "Qual é o resultado final deduzido?",
+    "correct_answer": "",
+    "solution": [
+      {
+        "ElementoMágico": "Cristal",
+        "CaracterísticaNatural": "FlorestaEncantada",
+        "SegredoEscondido": "TesouroAntigo",
+        "HabitanteMítico": "Sereia",
+        "EventoMágico": "EclipseLunar"
+      },
+      {
+        "ElementoMágico": "Dragão",
+        "CaracterísticaNatural": "PraiaDourada",
+        "SegredoEscondido": "PortaSecreta",
+        "HabitanteMítico": "Gnomo",
+        "EventoMágico": "ChuvaDeEstrelas"
+      },
+      {
+        "ElementoMágico": "Fada",
+        "CaracterísticaNatural": "MontanhaSagrada",
+        "SegredoEscondido": "LabirintoEnfeitiçado",
+        "HabitanteMítico": "Fênix",
+        "EventoMágico": "TempestadeArcana"
+      },
+      {
+        "ElementoMágico": "Neblina",
+        "CaracterísticaNatural": "LagoMístico",
+        "SegredoEscondido": "RuínasMísticas",
+        "HabitanteMítico": "Ciclope",
+        "EventoMágico": "AuroraBoreal"
+      },
+      {
+        "ElementoMágico": "Estrela",
+        "CaracterísticaNatural": "CachoeiraArcana",
+        "SegredoEscondido": "MapaEncantado",
+        "HabitanteMítico": "Duende",
+        "EventoMágico": "SolstícioMístico"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'ElementoMágico': 'Cristal', 'CaracterísticaNatural': 'FlorestaEncantada', 'SegredoEscondido': 'TesouroAntigo', 'HabitanteMítico': 'Sereia', 'EventoMágico': 'EclipseLunar'}",
+      "Atribuindo item 2: {'ElementoMágico': 'Dragão', 'CaracterísticaNatural': 'PraiaDourada', 'SegredoEscondido': 'PortaSecreta', 'HabitanteMítico': 'Gnomo', 'EventoMágico': 'ChuvaDeEstrelas'}",
+      "Atribuindo item 3: {'ElementoMágico': 'Fada', 'CaracterísticaNatural': 'MontanhaSagrada', 'SegredoEscondido': 'LabirintoEnfeitiçado', 'HabitanteMítico': 'Fênix', 'EventoMágico': 'TempestadeArcana'}",
+      "Atribuindo item 4: {'ElementoMágico': 'Neblina', 'CaracterísticaNatural': 'LagoMístico', 'SegredoEscondido': 'RuínasMísticas', 'HabitanteMítico': 'Ciclope', 'EventoMágico': 'AuroraBoreal'}",
+      "Atribuindo item 5: {'ElementoMágico': 'Estrela', 'CaracterísticaNatural': 'CachoeiraArcana', 'SegredoEscondido': 'MapaEncantado', 'HabitanteMítico': 'Duende', 'EventoMágico': 'SolstícioMístico'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "ArtistaFamoso": [
+        "Elvis Presley",
+        "The Beatles",
+        "Michael Jackson",
+        "Queen"
+      ],
+      "AlbumClássico": [
+        "Thriller",
+        "Abbey Road",
+        "A Night at the Opera",
+        "Blue Suede Shoes"
+      ],
+      "MúsicaInesquecível": [
+        "Billie Jean",
+        "Hey Jude",
+        "Bohemian Rhapsody",
+        "Can't Help Falling in Love"
+      ],
+      "GêneroMusical": [
+        "Pop",
+        "Rock",
+        "Soul",
+        "Classic Rock"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 4 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 4.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - ArtistaFamoso: Elvis Presley, The Beatles, Michael Jackson, Queen.\n  - AlbumClássico: Thriller, Abbey Road, A Night at the Opera, Blue Suede Shoes.\n  - MúsicaInesquecível: Billie Jean, Hey Jude, Bohemian Rhapsody, Can't Help Falling in Love.\n  - GêneroMusical: Pop, Rock, Soul, Classic Rock.\n\nDicas do puzzle:\n1. Se um item tem ArtistaFamoso igual a The Beatles, então esse mesmo item tem AlbumClássico igual a Abbey Road.\n2. Se um item tem GêneroMusical igual a Classic Rock, então esse mesmo item tem ArtistaFamoso igual a Queen.\n3. Se um item tem MúsicaInesquecível igual a Can't Help Falling in Love, então esse mesmo item tem AlbumClássico igual a Blue Suede Shoes.\n4. Se um item tem GêneroMusical igual a Pop, então esse mesmo item tem MúsicaInesquecível igual a Can't Help Falling in Love.\n5. Se um item tem AlbumClássico igual a Abbey Road, então pelo menos um dos itens vizinhos tem ArtistaFamoso igual a Michael Jackson.\n6. O item com MúsicaInesquecível igual a Can't Help Falling in Love está imediatamente à esquerda do item com GêneroMusical igual a Rock.\n7. Se um item tem MúsicaInesquecível igual a Bohemian Rhapsody, então pelo menos um dos itens vizinhos tem ArtistaFamoso igual a Michael Jackson.\n8. O item com AlbumClássico igual a Blue Suede Shoes está imediatamente à esquerda do item com GêneroMusical igual a Rock.\n\n\nPergunta Retroalimentada: Qual é o resultado final deduzido?",
+    "deduction": [
+      "1. O item 1 tem AlbumClássico igual a Blue Suede Shoes.",
+      "2. O item 3 tem MúsicaInesquecível igual a Billie Jean.",
+      "3. O item 4 tem MúsicaInesquecível igual a Bohemian Rhapsody.",
+      "4. O item 3 tem GêneroMusical igual a Soul.",
+      "5. Se um item tem ArtistaFamoso igual a The Beatles, então esse mesmo item tem AlbumClássico igual a Abbey Road.",
+      "6. Se um item tem GêneroMusical igual a Classic Rock, então esse mesmo item tem ArtistaFamoso igual a Queen.",
+      "7. Se um item tem MúsicaInesquecível igual a Can't Help Falling in Love, então esse mesmo item tem AlbumClássico igual a Blue Suede Shoes.",
+      "8. Se um item tem GêneroMusical igual a Pop, então esse mesmo item tem MúsicaInesquecível igual a Can't Help Falling in Love.",
+      "9. Se um item tem AlbumClássico igual a Abbey Road, então pelo menos um dos itens vizinhos tem ArtistaFamoso igual a Michael Jackson.",
+      "10. O item com MúsicaInesquecível igual a Can't Help Falling in Love está imediatamente à esquerda do item com GêneroMusical igual a Rock.",
+      "11. Se um item tem MúsicaInesquecível igual a Bohemian Rhapsody, então pelo menos um dos itens vizinhos tem ArtistaFamoso igual a Michael Jackson.",
+      "12. O item com AlbumClássico igual a Blue Suede Shoes está imediatamente à esquerda do item com GêneroMusical igual a Rock."
+    ],
+    "feedback_question": "Qual é o resultado final deduzido?",
+    "correct_answer": "",
+    "solution": [
+      {
+        "ArtistaFamoso": "Elvis Presley",
+        "AlbumClássico": "Blue Suede Shoes",
+        "MúsicaInesquecível": "Can't Help Falling in Love",
+        "GêneroMusical": "Pop"
+      },
+      {
+        "ArtistaFamoso": "The Beatles",
+        "AlbumClássico": "Abbey Road",
+        "MúsicaInesquecível": "Hey Jude",
+        "GêneroMusical": "Rock"
+      },
+      {
+        "ArtistaFamoso": "Michael Jackson",
+        "AlbumClássico": "Thriller",
+        "MúsicaInesquecível": "Billie Jean",
+        "GêneroMusical": "Soul"
+      },
+      {
+        "ArtistaFamoso": "Queen",
+        "AlbumClássico": "A Night at the Opera",
+        "MúsicaInesquecível": "Bohemian Rhapsody",
+        "GêneroMusical": "Classic Rock"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'ArtistaFamoso': 'Elvis Presley', 'AlbumClássico': 'Blue Suede Shoes', 'MúsicaInesquecível': 'Hey Jude', 'GêneroMusical': 'Pop'}",
+      "Backtrack no item 1: {'ArtistaFamoso': 'Elvis Presley', 'AlbumClássico': 'Blue Suede Shoes', 'MúsicaInesquecível': 'Hey Jude', 'GêneroMusical': 'Pop'}",
+      "Atribuindo item 1: {'ArtistaFamoso': 'Elvis Presley', 'AlbumClássico': 'Blue Suede Shoes', 'MúsicaInesquecível': 'Hey Jude', 'GêneroMusical': 'Rock'}",
+      "Backtrack no item 1: {'ArtistaFamoso': 'Elvis Presley', 'AlbumClássico': 'Blue Suede Shoes', 'MúsicaInesquecível': 'Hey Jude', 'GêneroMusical': 'Rock'}",
+      "Atribuindo item 1: {'ArtistaFamoso': 'Elvis Presley', 'AlbumClássico': 'Blue Suede Shoes', 'MúsicaInesquecível': 'Hey Jude', 'GêneroMusical': 'Classic Rock'}",
+      "Backtrack no item 1: {'ArtistaFamoso': 'Elvis Presley', 'AlbumClássico': 'Blue Suede Shoes', 'MúsicaInesquecível': 'Hey Jude', 'GêneroMusical': 'Classic Rock'}",
+      "Atribuindo item 1: {'ArtistaFamoso': 'Elvis Presley', 'AlbumClássico': 'Blue Suede Shoes', 'MúsicaInesquecível': \"Can't Help Falling in Love\", 'GêneroMusical': 'Pop'}",
+      "Atribuindo item 2: {'ArtistaFamoso': 'The Beatles', 'AlbumClássico': 'Thriller', 'MúsicaInesquecível': 'Hey Jude', 'GêneroMusical': 'Rock'}",
+      "Backtrack no item 2: {'ArtistaFamoso': 'The Beatles', 'AlbumClássico': 'Thriller', 'MúsicaInesquecível': 'Hey Jude', 'GêneroMusical': 'Rock'}",
+      "Atribuindo item 2: {'ArtistaFamoso': 'The Beatles', 'AlbumClássico': 'Thriller', 'MúsicaInesquecível': 'Hey Jude', 'GêneroMusical': 'Classic Rock'}",
+      "Backtrack no item 2: {'ArtistaFamoso': 'The Beatles', 'AlbumClássico': 'Thriller', 'MúsicaInesquecível': 'Hey Jude', 'GêneroMusical': 'Classic Rock'}",
+      "Atribuindo item 2: {'ArtistaFamoso': 'The Beatles', 'AlbumClássico': 'Abbey Road', 'MúsicaInesquecível': 'Hey Jude', 'GêneroMusical': 'Rock'}",
+      "Atribuindo item 3: {'ArtistaFamoso': 'Michael Jackson', 'AlbumClássico': 'Thriller', 'MúsicaInesquecível': 'Billie Jean', 'GêneroMusical': 'Soul'}",
+      "Atribuindo item 4: {'ArtistaFamoso': 'Queen', 'AlbumClássico': 'A Night at the Opera', 'MúsicaInesquecível': 'Bohemian Rhapsody', 'GêneroMusical': 'Classic Rock'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "Compositor": [
+        "Ludwig van Beethoven",
+        "Wolfgang Amadeus Mozart",
+        "Johann Sebastian Bach",
+        "Pyotr Ilyich Tchaikovsky"
+      ],
+      "Instrumento": [
+        "Piano",
+        "Violino",
+        "Órgão",
+        "Flauta"
+      ],
+      "Música": [
+        "Sinfonia Nº 5",
+        "Concerto para Piano Nº 21",
+        "Tocata e Fuga em Ré Menor",
+        "O Lago dos Cisnes"
+      ],
+      "Gênero": [
+        "Sinfonias",
+        "Concertos",
+        "Fugas",
+        "Balés"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 4 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 4.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - Compositor: Ludwig van Beethoven, Wolfgang Amadeus Mozart, Johann Sebastian Bach, Pyotr Ilyich Tchaikovsky.\n  - Instrumento: Piano, Violino, Órgão, Flauta.\n  - Música: Sinfonia Nº 5, Concerto para Piano Nº 21, Tocata e Fuga em Ré Menor, O Lago dos Cisnes.\n  - Gênero: Sinfonias, Concertos, Fugas, Balés.\n\nDicas do puzzle:\n1. Se um item tem Instrumento igual a Violino, então esse mesmo item tem Gênero igual a Concertos.\n2. Se um item tem Instrumento igual a Violino, então esse mesmo item tem Música igual a Concerto para Piano Nº 21.\n3. Se um item tem Gênero igual a Balés, então esse mesmo item tem Instrumento igual a Flauta.\n4. Se um item tem Música igual a Concerto para Piano Nº 21, então esse mesmo item tem Gênero igual a Concertos.\n5. Se um item tem Gênero igual a Balés, então pelo menos um dos itens vizinhos tem Música igual a Tocata e Fuga em Ré Menor.\n6. O item com Instrumento igual a Piano está imediatamente à esquerda do item com Compositor igual a Wolfgang Amadeus Mozart.\n7. Se um item tem Instrumento igual a Piano, então pelo menos um dos itens vizinhos tem Música igual a Concerto para Piano Nº 21.\n8. Se um item tem Música igual a Tocata e Fuga em Ré Menor, então pelo menos um dos itens vizinhos tem Instrumento igual a Violino.\n\n\nPergunta Retroalimentada: Com base na dedução, quem é vizinho do item com Música igual a Tocata e Fuga em Ré Menor?",
+    "deduction": [
+      "1. O item 1 tem Música igual a Sinfonia Nº 5.",
+      "2. O item 4 tem Compositor igual a Pyotr Ilyich Tchaikovsky.",
+      "3. O item 4 tem Música igual a O Lago dos Cisnes.",
+      "4. O item 4 tem Gênero igual a Balés.",
+      "5. Se um item tem Instrumento igual a Violino, então esse mesmo item tem Gênero igual a Concertos.",
+      "6. Se um item tem Instrumento igual a Violino, então esse mesmo item tem Música igual a Concerto para Piano Nº 21.",
+      "7. Se um item tem Gênero igual a Balés, então esse mesmo item tem Instrumento igual a Flauta.",
+      "8. Se um item tem Música igual a Concerto para Piano Nº 21, então esse mesmo item tem Gênero igual a Concertos.",
+      "9. Se um item tem Gênero igual a Balés, então pelo menos um dos itens vizinhos tem Música igual a Tocata e Fuga em Ré Menor.",
+      "10. O item com Instrumento igual a Piano está imediatamente à esquerda do item com Compositor igual a Wolfgang Amadeus Mozart.",
+      "11. Se um item tem Instrumento igual a Piano, então pelo menos um dos itens vizinhos tem Música igual a Concerto para Piano Nº 21.",
+      "12. Se um item tem Música igual a Tocata e Fuga em Ré Menor, então pelo menos um dos itens vizinhos tem Instrumento igual a Violino."
+    ],
+    "feedback_question": "Com base na dedução, quem é vizinho do item com Música igual a Tocata e Fuga em Ré Menor?",
+    "correct_answer": "Solução Final:\nItem 1: Compositor: Ludwig van Beethoven, Instrumento: Piano, Música: Sinfonia Nº 5, Gênero: Sinfonias\nItem 2: Compositor: Wolfgang Amadeus Mozart, Instrumento: Violino, Música: Concerto para Piano Nº 21, Gênero: Concertos\nItem 3: Compositor: Johann Sebastian Bach, Instrumento: Órgão, Música: Tocata e Fuga em Ré Menor, Gênero: Fugas\nItem 4: Compositor: Pyotr Ilyich Tchaikovsky, Instrumento: Flauta, Música: O Lago dos Cisnes, Gênero: Balés\n\nResposta: O item vizinho possui Instrumento igual a Violino.",
+    "solution": [
+      {
+        "Compositor": "Ludwig van Beethoven",
+        "Instrumento": "Piano",
+        "Música": "Sinfonia Nº 5",
+        "Gênero": "Sinfonias"
+      },
+      {
+        "Compositor": "Wolfgang Amadeus Mozart",
+        "Instrumento": "Violino",
+        "Música": "Concerto para Piano Nº 21",
+        "Gênero": "Concertos"
+      },
+      {
+        "Compositor": "Johann Sebastian Bach",
+        "Instrumento": "Órgão",
+        "Música": "Tocata e Fuga em Ré Menor",
+        "Gênero": "Fugas"
+      },
+      {
+        "Compositor": "Pyotr Ilyich Tchaikovsky",
+        "Instrumento": "Flauta",
+        "Música": "O Lago dos Cisnes",
+        "Gênero": "Balés"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'Compositor': 'Ludwig van Beethoven', 'Instrumento': 'Piano', 'Música': 'Sinfonia Nº 5', 'Gênero': 'Sinfonias'}",
+      "Atribuindo item 2: {'Compositor': 'Wolfgang Amadeus Mozart', 'Instrumento': 'Violino', 'Música': 'Concerto para Piano Nº 21', 'Gênero': 'Concertos'}",
+      "Atribuindo item 3: {'Compositor': 'Johann Sebastian Bach', 'Instrumento': 'Órgão', 'Música': 'Tocata e Fuga em Ré Menor', 'Gênero': 'Fugas'}",
+      "Atribuindo item 4: {'Compositor': 'Pyotr Ilyich Tchaikovsky', 'Instrumento': 'Flauta', 'Música': 'O Lago dos Cisnes', 'Gênero': 'Balés'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "TipoDeInstrumento": [
+        "Cordas",
+        "Sopros",
+        "Percussão",
+        "Teclado"
+      ],
+      "MaterialPrincipal": [
+        "Madeira",
+        "Metal",
+        "Couro",
+        "Plástico"
+      ],
+      "OrigemGeografica": [
+        "Europa",
+        "Ásia",
+        "América do Sul",
+        "África"
+      ],
+      "Tamanho": [
+        "Pequeno",
+        "Médio",
+        "Grande",
+        "Enorme"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 4 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 4.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - TipoDeInstrumento: Cordas, Sopros, Percussão, Teclado.\n  - MaterialPrincipal: Madeira, Metal, Couro, Plástico.\n  - OrigemGeografica: Europa, Ásia, América do Sul, África.\n  - Tamanho: Pequeno, Médio, Grande, Enorme.\n\nDicas do puzzle:\n1. Se um item tem TipoDeInstrumento igual a Percussão, então esse mesmo item tem MaterialPrincipal igual a Couro.\n2. Se um item tem TipoDeInstrumento igual a Percussão, então esse mesmo item tem OrigemGeografica igual a América do Sul.\n3. Se um item tem MaterialPrincipal igual a Couro, então esse mesmo item tem OrigemGeografica igual a América do Sul.\n4. Se um item tem TipoDeInstrumento igual a Sopros, então esse mesmo item tem OrigemGeografica igual a Ásia.\n5. Se um item tem Tamanho igual a Enorme, então pelo menos um dos itens vizinhos tem MaterialPrincipal igual a Couro.\n6. Se um item tem Tamanho igual a Médio, então pelo menos um dos itens vizinhos tem MaterialPrincipal igual a Madeira.\n7. O item com MaterialPrincipal igual a Metal está imediatamente à esquerda do item com TipoDeInstrumento igual a Percussão.\n8. O item com MaterialPrincipal igual a Madeira está imediatamente à esquerda do item com TipoDeInstrumento igual a Sopros.\n\n\nPergunta Retroalimentada: Qual é o resultado final deduzido?",
+    "deduction": [
+      "1. O item 1 tem TipoDeInstrumento igual a Cordas.",
+      "2. O item 1 tem Tamanho igual a Pequeno.",
+      "3. O item 1 tem MaterialPrincipal igual a Madeira.",
+      "4. O item 2 tem OrigemGeografica igual a Ásia.",
+      "5. Se um item tem TipoDeInstrumento igual a Percussão, então esse mesmo item tem MaterialPrincipal igual a Couro.",
+      "6. Se um item tem TipoDeInstrumento igual a Percussão, então esse mesmo item tem OrigemGeografica igual a América do Sul.",
+      "7. Se um item tem MaterialPrincipal igual a Couro, então esse mesmo item tem OrigemGeografica igual a América do Sul.",
+      "8. Se um item tem TipoDeInstrumento igual a Sopros, então esse mesmo item tem OrigemGeografica igual a Ásia.",
+      "9. Se um item tem Tamanho igual a Enorme, então pelo menos um dos itens vizinhos tem MaterialPrincipal igual a Couro.",
+      "10. Se um item tem Tamanho igual a Médio, então pelo menos um dos itens vizinhos tem MaterialPrincipal igual a Madeira.",
+      "11. O item com MaterialPrincipal igual a Metal está imediatamente à esquerda do item com TipoDeInstrumento igual a Percussão.",
+      "12. O item com MaterialPrincipal igual a Madeira está imediatamente à esquerda do item com TipoDeInstrumento igual a Sopros."
+    ],
+    "feedback_question": "Qual é o resultado final deduzido?",
+    "correct_answer": "",
+    "solution": [
+      {
+        "TipoDeInstrumento": "Cordas",
+        "MaterialPrincipal": "Madeira",
+        "OrigemGeografica": "Europa",
+        "Tamanho": "Pequeno"
+      },
+      {
+        "TipoDeInstrumento": "Sopros",
+        "MaterialPrincipal": "Metal",
+        "OrigemGeografica": "Ásia",
+        "Tamanho": "Médio"
+      },
+      {
+        "TipoDeInstrumento": "Percussão",
+        "MaterialPrincipal": "Couro",
+        "OrigemGeografica": "América do Sul",
+        "Tamanho": "Grande"
+      },
+      {
+        "TipoDeInstrumento": "Teclado",
+        "MaterialPrincipal": "Plástico",
+        "OrigemGeografica": "África",
+        "Tamanho": "Enorme"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'TipoDeInstrumento': 'Cordas', 'MaterialPrincipal': 'Madeira', 'OrigemGeografica': 'Europa', 'Tamanho': 'Pequeno'}",
+      "Atribuindo item 2: {'TipoDeInstrumento': 'Sopros', 'MaterialPrincipal': 'Metal', 'OrigemGeografica': 'Ásia', 'Tamanho': 'Médio'}",
+      "Atribuindo item 3: {'TipoDeInstrumento': 'Percussão', 'MaterialPrincipal': 'Couro', 'OrigemGeografica': 'América do Sul', 'Tamanho': 'Grande'}",
+      "Atribuindo item 4: {'TipoDeInstrumento': 'Teclado', 'MaterialPrincipal': 'Plástico', 'OrigemGeografica': 'África', 'Tamanho': 'Enorme'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "Fama": [
+        "Ganador de Prêmio",
+        "Ator Cínico",
+        "Domador de Brinquedos"
+      ],
+      "Personalidade": [
+        "Misterioso",
+        "Carismático",
+        "Aventureiro"
+      ],
+      "Habilidade": [
+        "Caçador de Ratos",
+        "Acrobata",
+        "Cantor"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 3 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 3.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - Fama: Ganador de Prêmio, Ator Cínico, Domador de Brinquedos.\n  - Personalidade: Misterioso, Carismático, Aventureiro.\n  - Habilidade: Caçador de Ratos, Acrobata, Cantor.\n\nDicas do puzzle:\n1. Se um item tem Fama igual a Ganador de Prêmio, então esse mesmo item tem Personalidade igual a Misterioso.\n2. Se um item tem Personalidade igual a Aventureiro, então esse mesmo item tem Fama igual a Domador de Brinquedos.\n3. Se um item tem Habilidade igual a Caçador de Ratos, então esse mesmo item tem Fama igual a Ganador de Prêmio.\n4. Se um item tem Fama igual a Domador de Brinquedos, então pelo menos um dos itens vizinhos tem Habilidade igual a Acrobata.\n5. Se um item tem Fama igual a Domador de Brinquedos, então pelo menos um dos itens vizinhos tem Personalidade igual a Carismático.\n6. O item com Fama igual a Ganador de Prêmio está imediatamente à esquerda do item com Personalidade igual a Carismático.\n\n\nPergunta Retroalimentada: Qual é o resultado final deduzido?",
+    "deduction": [
+      "1. O item 2 tem Personalidade igual a Carismático.",
+      "2. O item 2 tem Fama igual a Ator Cínico.",
+      "3. O item 3 tem Fama igual a Domador de Brinquedos.",
+      "4. Se um item tem Fama igual a Ganador de Prêmio, então esse mesmo item tem Personalidade igual a Misterioso.",
+      "5. Se um item tem Personalidade igual a Aventureiro, então esse mesmo item tem Fama igual a Domador de Brinquedos.",
+      "6. Se um item tem Habilidade igual a Caçador de Ratos, então esse mesmo item tem Fama igual a Ganador de Prêmio.",
+      "7. Se um item tem Fama igual a Domador de Brinquedos, então pelo menos um dos itens vizinhos tem Habilidade igual a Acrobata.",
+      "8. Se um item tem Fama igual a Domador de Brinquedos, então pelo menos um dos itens vizinhos tem Personalidade igual a Carismático.",
+      "9. O item com Fama igual a Ganador de Prêmio está imediatamente à esquerda do item com Personalidade igual a Carismático."
+    ],
+    "feedback_question": "Qual é o resultado final deduzido?",
+    "correct_answer": "",
+    "solution": [
+      {
+        "Fama": "Ganador de Prêmio",
+        "Personalidade": "Misterioso",
+        "Habilidade": "Caçador de Ratos"
+      },
+      {
+        "Fama": "Ator Cínico",
+        "Personalidade": "Carismático",
+        "Habilidade": "Acrobata"
+      },
+      {
+        "Fama": "Domador de Brinquedos",
+        "Personalidade": "Aventureiro",
+        "Habilidade": "Cantor"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'Fama': 'Ganador de Prêmio', 'Personalidade': 'Misterioso', 'Habilidade': 'Caçador de Ratos'}",
+      "Atribuindo item 2: {'Fama': 'Ator Cínico', 'Personalidade': 'Carismático', 'Habilidade': 'Acrobata'}",
+      "Atribuindo item 3: {'Fama': 'Domador de Brinquedos', 'Personalidade': 'Aventureiro', 'Habilidade': 'Cantor'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "Banda1": [
+        "The Beatles",
+        "Queen",
+        "U2",
+        "Coldplay",
+        "AC/DC"
+      ],
+      "Banda2": [
+        "Red Hot Chili Peppers",
+        "Guns N' Roses",
+        "Nirvana",
+        "Metallica",
+        "Pink Floyd"
+      ],
+      "Artista1": [
+        "Elvis Presley",
+        "Michael Jackson",
+        "Madonna",
+        "Beyoncé",
+        "Freddie Mercury"
+      ],
+      "Artista2": [
+        "Ed Sheeran",
+        "Taylor Swift",
+        "Adele",
+        "Justin Bieber",
+        "Lady Gaga"
+      ],
+      "Música": [
+        "Hey Jude",
+        "Bohemian Rhapsody",
+        "With or Without You",
+        "Yellow",
+        "Back in Black"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 5 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 5.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - Banda1: The Beatles, Queen, U2, Coldplay, AC/DC.\n  - Banda2: Red Hot Chili Peppers, Guns N' Roses, Nirvana, Metallica, Pink Floyd.\n  - Artista1: Elvis Presley, Michael Jackson, Madonna, Beyoncé, Freddie Mercury.\n  - Artista2: Ed Sheeran, Taylor Swift, Adele, Justin Bieber, Lady Gaga.\n  - Música: Hey Jude, Bohemian Rhapsody, With or Without You, Yellow, Back in Black.\n\nDicas do puzzle:\n1. Se um item tem Música igual a With or Without You, então esse mesmo item tem Artista1 igual a Madonna.\n2. Se um item tem Música igual a Yellow, então esse mesmo item tem Banda2 igual a Metallica.\n3. Se um item tem Banda2 igual a Guns N' Roses, então esse mesmo item tem Música igual a Bohemian Rhapsody.\n4. Se um item tem Banda1 igual a The Beatles, então esse mesmo item tem Banda2 igual a Red Hot Chili Peppers.\n5. Se um item tem Música igual a Bohemian Rhapsody, então esse mesmo item tem Banda2 igual a Guns N' Roses.\n6. Se um item tem Artista2 igual a Justin Bieber, então pelo menos um dos itens vizinhos tem Música igual a With or Without You.\n7. O item com Banda1 igual a U2 está imediatamente à esquerda do item com Banda2 igual a Metallica.\n8. Se um item tem Artista1 igual a Michael Jackson, então pelo menos um dos itens vizinhos tem Música igual a Hey Jude.\n9. Se um item tem Banda1 igual a U2, então pelo menos um dos itens vizinhos tem Música igual a Bohemian Rhapsody.\n10. O item com Artista2 igual a Taylor Swift está imediatamente à esquerda do item com Banda2 igual a Nirvana.\n\n\nPergunta Retroalimentada: Qual é o resultado final deduzido?",
+    "deduction": [
+      "1. O item 3 tem Banda1 igual a U2.",
+      "2. O item 5 tem Artista2 igual a Lady Gaga.",
+      "3. O item 1 tem Artista1 igual a Elvis Presley.",
+      "4. O item 2 tem Banda1 igual a Queen.",
+      "5. O item 4 tem Banda1 igual a Coldplay.",
+      "6. Se um item tem Música igual a With or Without You, então esse mesmo item tem Artista1 igual a Madonna.",
+      "7. Se um item tem Música igual a Yellow, então esse mesmo item tem Banda2 igual a Metallica.",
+      "8. Se um item tem Banda2 igual a Guns N' Roses, então esse mesmo item tem Música igual a Bohemian Rhapsody.",
+      "9. Se um item tem Banda1 igual a The Beatles, então esse mesmo item tem Banda2 igual a Red Hot Chili Peppers.",
+      "10. Se um item tem Música igual a Bohemian Rhapsody, então esse mesmo item tem Banda2 igual a Guns N' Roses.",
+      "11. Se um item tem Artista2 igual a Justin Bieber, então pelo menos um dos itens vizinhos tem Música igual a With or Without You.",
+      "12. O item com Banda1 igual a U2 está imediatamente à esquerda do item com Banda2 igual a Metallica.",
+      "13. Se um item tem Artista1 igual a Michael Jackson, então pelo menos um dos itens vizinhos tem Música igual a Hey Jude.",
+      "14. Se um item tem Banda1 igual a U2, então pelo menos um dos itens vizinhos tem Música igual a Bohemian Rhapsody.",
+      "15. O item com Artista2 igual a Taylor Swift está imediatamente à esquerda do item com Banda2 igual a Nirvana."
+    ],
+    "feedback_question": "Qual é o resultado final deduzido?",
+    "correct_answer": "",
+    "solution": [
+      {
+        "Banda1": "The Beatles",
+        "Banda2": "Red Hot Chili Peppers",
+        "Artista1": "Elvis Presley",
+        "Artista2": "Ed Sheeran",
+        "Música": "Hey Jude"
+      },
+      {
+        "Banda1": "Queen",
+        "Banda2": "Guns N' Roses",
+        "Artista1": "Michael Jackson",
+        "Artista2": "Taylor Swift",
+        "Música": "Bohemian Rhapsody"
+      },
+      {
+        "Banda1": "U2",
+        "Banda2": "Nirvana",
+        "Artista1": "Madonna",
+        "Artista2": "Adele",
+        "Música": "With or Without You"
+      },
+      {
+        "Banda1": "Coldplay",
+        "Banda2": "Metallica",
+        "Artista1": "Beyoncé",
+        "Artista2": "Justin Bieber",
+        "Música": "Yellow"
+      },
+      {
+        "Banda1": "AC/DC",
+        "Banda2": "Pink Floyd",
+        "Artista1": "Freddie Mercury",
+        "Artista2": "Lady Gaga",
+        "Música": "Back in Black"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'Banda1': 'The Beatles', 'Banda2': 'Red Hot Chili Peppers', 'Artista1': 'Elvis Presley', 'Artista2': 'Ed Sheeran', 'Música': 'Hey Jude'}",
+      "Atribuindo item 2: {'Banda1': 'Queen', 'Banda2': \"Guns N' Roses\", 'Artista1': 'Michael Jackson', 'Artista2': 'Taylor Swift', 'Música': 'Bohemian Rhapsody'}",
+      "Atribuindo item 3: {'Banda1': 'U2', 'Banda2': 'Nirvana', 'Artista1': 'Madonna', 'Artista2': 'Adele', 'Música': 'With or Without You'}",
+      "Atribuindo item 4: {'Banda1': 'Coldplay', 'Banda2': 'Metallica', 'Artista1': 'Beyoncé', 'Artista2': 'Justin Bieber', 'Música': 'Yellow'}",
+      "Atribuindo item 5: {'Banda1': 'AC/DC', 'Banda2': 'Pink Floyd', 'Artista1': 'Freddie Mercury', 'Artista2': 'Lady Gaga', 'Música': 'Back in Black'}",
+      "Solução completa encontrada!"
+    ]
+  }
+]

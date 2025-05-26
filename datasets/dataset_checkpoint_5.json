@@ -1,0 +1,348 @@
+[
+  {
+    "domain": {
+      "Compositor": [
+        "Mozart",
+        "Beethoven",
+        "Bach"
+      ],
+      "Instrumento": [
+        "Piano",
+        "Violino",
+        "Cello"
+      ],
+      "Musica": [
+        "Sonata ao Luar",
+        "Concerto de Brandemburgo",
+        "Sinfonia Nº 5"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 3 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 3.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - Compositor: Mozart, Beethoven, Bach.\n  - Instrumento: Piano, Violino, Cello.\n  - Musica: Sonata ao Luar, Concerto de Brandemburgo, Sinfonia Nº 5.\n\nDicas do puzzle:\n1. Se um item tem Instrumento igual a Violino, então esse mesmo item tem Compositor igual a Beethoven.\n2. Se um item tem Compositor igual a Bach, então esse mesmo item tem Instrumento igual a Cello.\n3. Se um item tem Compositor igual a Mozart, então esse mesmo item tem Musica igual a Sonata ao Luar.\n4. Se um item tem Musica igual a Concerto de Brandemburgo, então pelo menos um dos itens vizinhos tem Instrumento igual a Cello.\n5. O item com Instrumento igual a Violino está imediatamente à esquerda do item com Musica igual a Sinfonia Nº 5.\n6. Se um item tem Instrumento igual a Cello, então pelo menos um dos itens vizinhos tem Compositor igual a Beethoven.\n\n\nPergunta Retroalimentada: Com base na dedução, quem é vizinho do item com Instrumento igual a Cello?",
+    "deduction": [
+      "1. O item 2 tem Compositor igual a Beethoven.",
+      "2. O item 3 tem Instrumento igual a Cello.",
+      "3. O item 1 tem Musica igual a Sonata ao Luar.",
+      "4. Se um item tem Instrumento igual a Violino, então esse mesmo item tem Compositor igual a Beethoven.",
+      "5. Se um item tem Compositor igual a Bach, então esse mesmo item tem Instrumento igual a Cello.",
+      "6. Se um item tem Compositor igual a Mozart, então esse mesmo item tem Musica igual a Sonata ao Luar.",
+      "7. Se um item tem Musica igual a Concerto de Brandemburgo, então pelo menos um dos itens vizinhos tem Instrumento igual a Cello.",
+      "8. O item com Instrumento igual a Violino está imediatamente à esquerda do item com Musica igual a Sinfonia Nº 5.",
+      "9. Se um item tem Instrumento igual a Cello, então pelo menos um dos itens vizinhos tem Compositor igual a Beethoven."
+    ],
+    "feedback_question": "Com base na dedução, quem é vizinho do item com Instrumento igual a Cello?",
+    "correct_answer": "Solução Final:\nItem 1: Compositor: Mozart, Instrumento: Piano, Musica: Sonata ao Luar\nItem 2: Compositor: Beethoven, Instrumento: Violino, Musica: Concerto de Brandemburgo\nItem 3: Compositor: Bach, Instrumento: Cello, Musica: Sinfonia Nº 5\n\nResposta: O item vizinho possui Compositor igual a Beethoven.",
+    "solution": [
+      {
+        "Compositor": "Mozart",
+        "Instrumento": "Piano",
+        "Musica": "Sonata ao Luar"
+      },
+      {
+        "Compositor": "Beethoven",
+        "Instrumento": "Violino",
+        "Musica": "Concerto de Brandemburgo"
+      },
+      {
+        "Compositor": "Bach",
+        "Instrumento": "Cello",
+        "Musica": "Sinfonia Nº 5"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'Compositor': 'Mozart', 'Instrumento': 'Piano', 'Musica': 'Sonata ao Luar'}",
+      "Atribuindo item 2: {'Compositor': 'Beethoven', 'Instrumento': 'Violino', 'Musica': 'Concerto de Brandemburgo'}",
+      "Atribuindo item 3: {'Compositor': 'Bach', 'Instrumento': 'Cello', 'Musica': 'Sinfonia Nº 5'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "EstiloArtistico": [
+        "Renascimento",
+        "Barroco",
+        "Modernismo"
+      ],
+      "PeriodoHistorico": [
+        "IdadeMédia",
+        "Renaissance",
+        "Contemporâneo"
+      ],
+      "ObraIdentificacao": [
+        "Obra1",
+        "Obra2",
+        "Obra3"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 3 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 3.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - EstiloArtistico: Renascimento, Barroco, Modernismo.\n  - PeriodoHistorico: IdadeMédia, Renaissance, Contemporâneo.\n  - ObraIdentificacao: Obra1, Obra2, Obra3.\n\nDicas do puzzle:\n1. Se um item tem ObraIdentificacao igual a Obra3, então esse mesmo item tem EstiloArtistico igual a Modernismo.\n2. Se um item tem PeriodoHistorico igual a IdadeMédia, então esse mesmo item tem EstiloArtistico igual a Renascimento.\n3. Se um item tem PeriodoHistorico igual a IdadeMédia, então esse mesmo item tem ObraIdentificacao igual a Obra1.\n4. Se um item tem PeriodoHistorico igual a Renaissance, então pelo menos um dos itens vizinhos tem EstiloArtistico igual a Modernismo.\n5. Se um item tem EstiloArtistico igual a Modernismo, então pelo menos um dos itens vizinhos tem PeriodoHistorico igual a Renaissance.\n6. Se um item tem ObraIdentificacao igual a Obra1, então pelo menos um dos itens vizinhos tem EstiloArtistico igual a Barroco.\n\n\nPergunta Retroalimentada: Com base na dedução, quem é vizinho do item com ObraIdentificacao igual a Obra1?",
+    "deduction": [
+      "1. O item 1 tem ObraIdentificacao igual a Obra1.",
+      "2. O item 1 tem EstiloArtistico igual a Renascimento.",
+      "3. O item 3 tem ObraIdentificacao igual a Obra3.",
+      "4. Se um item tem ObraIdentificacao igual a Obra3, então esse mesmo item tem EstiloArtistico igual a Modernismo.",
+      "5. Se um item tem PeriodoHistorico igual a IdadeMédia, então esse mesmo item tem EstiloArtistico igual a Renascimento.",
+      "6. Se um item tem PeriodoHistorico igual a IdadeMédia, então esse mesmo item tem ObraIdentificacao igual a Obra1.",
+      "7. Se um item tem PeriodoHistorico igual a Renaissance, então pelo menos um dos itens vizinhos tem EstiloArtistico igual a Modernismo.",
+      "8. Se um item tem EstiloArtistico igual a Modernismo, então pelo menos um dos itens vizinhos tem PeriodoHistorico igual a Renaissance.",
+      "9. Se um item tem ObraIdentificacao igual a Obra1, então pelo menos um dos itens vizinhos tem EstiloArtistico igual a Barroco."
+    ],
+    "feedback_question": "Com base na dedução, quem é vizinho do item com ObraIdentificacao igual a Obra1?",
+    "correct_answer": "Solução Final:\nItem 1: EstiloArtistico: Renascimento, PeriodoHistorico: IdadeMédia, ObraIdentificacao: Obra1\nItem 2: EstiloArtistico: Barroco, PeriodoHistorico: Renaissance, ObraIdentificacao: Obra2\nItem 3: EstiloArtistico: Modernismo, PeriodoHistorico: Contemporâneo, ObraIdentificacao: Obra3\n\nResposta: O item vizinho possui EstiloArtistico igual a Barroco.",
+    "solution": [
+      {
+        "EstiloArtistico": "Renascimento",
+        "PeriodoHistorico": "IdadeMédia",
+        "ObraIdentificacao": "Obra1"
+      },
+      {
+        "EstiloArtistico": "Barroco",
+        "PeriodoHistorico": "Renaissance",
+        "ObraIdentificacao": "Obra2"
+      },
+      {
+        "EstiloArtistico": "Modernismo",
+        "PeriodoHistorico": "Contemporâneo",
+        "ObraIdentificacao": "Obra3"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'EstiloArtistico': 'Renascimento', 'PeriodoHistorico': 'IdadeMédia', 'ObraIdentificacao': 'Obra1'}",
+      "Atribuindo item 2: {'EstiloArtistico': 'Barroco', 'PeriodoHistorico': 'Renaissance', 'ObraIdentificacao': 'Obra2'}",
+      "Atribuindo item 3: {'EstiloArtistico': 'Modernismo', 'PeriodoHistorico': 'Contemporâneo', 'ObraIdentificacao': 'Obra3'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "Habitat": [
+        "Recife",
+        "Aberto",
+        "Fundo do Mar",
+        "Gelo"
+      ],
+      "Alimentação": [
+        "Plâncton",
+        "Peixes Pequenos",
+        "Lulas",
+        "Kril"
+      ],
+      "Comportamento": [
+        "Solitário",
+        "Social",
+        "Migratório",
+        "Territorial"
+      ],
+      "Característica Física": [
+        "Corpo alongado",
+        "Barbatanas grandes",
+        "Dentes afiados",
+        "Pele lisa"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 4 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 4.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - Habitat: Recife, Aberto, Fundo do Mar, Gelo.\n  - Alimentação: Plâncton, Peixes Pequenos, Lulas, Kril.\n  - Comportamento: Solitário, Social, Migratório, Territorial.\n  - Característica Física: Corpo alongado, Barbatanas grandes, Dentes afiados, Pele lisa.\n\nDicas do puzzle:\n1. Se um item tem Alimentação igual a Lulas, então esse mesmo item tem Habitat igual a Fundo do Mar.\n2. Se um item tem Comportamento igual a Territorial, então esse mesmo item tem Habitat igual a Gelo.\n3. Se um item tem Característica Física igual a Corpo alongado, então esse mesmo item tem Comportamento igual a Solitário.\n4. Se um item tem Alimentação igual a Kril, então esse mesmo item tem Habitat igual a Gelo.\n5. Se um item tem Habitat igual a Fundo do Mar, então pelo menos um dos itens vizinhos tem Comportamento igual a Territorial.\n6. O item com Habitat igual a Fundo do Mar está imediatamente à esquerda do item com Comportamento igual a Territorial.\n7. Se um item tem Alimentação igual a Kril, então pelo menos um dos itens vizinhos tem Comportamento igual a Migratório.\n8. O item com Habitat igual a Fundo do Mar está imediatamente à esquerda do item com Alimentação igual a Kril.\n\n\nPergunta Retroalimentada: Qual é o resultado final deduzido?",
+    "deduction": [
+      "1. O item 4 tem Habitat igual a Gelo.",
+      "2. O item 1 tem Comportamento igual a Solitário.",
+      "3. O item 3 tem Alimentação igual a Lulas.",
+      "4. O item 2 tem Habitat igual a Aberto.",
+      "5. Se um item tem Alimentação igual a Lulas, então esse mesmo item tem Habitat igual a Fundo do Mar.",
+      "6. Se um item tem Comportamento igual a Territorial, então esse mesmo item tem Habitat igual a Gelo.",
+      "7. Se um item tem Característica Física igual a Corpo alongado, então esse mesmo item tem Comportamento igual a Solitário.",
+      "8. Se um item tem Alimentação igual a Kril, então esse mesmo item tem Habitat igual a Gelo.",
+      "9. Se um item tem Habitat igual a Fundo do Mar, então pelo menos um dos itens vizinhos tem Comportamento igual a Territorial.",
+      "10. O item com Habitat igual a Fundo do Mar está imediatamente à esquerda do item com Comportamento igual a Territorial.",
+      "11. Se um item tem Alimentação igual a Kril, então pelo menos um dos itens vizinhos tem Comportamento igual a Migratório.",
+      "12. O item com Habitat igual a Fundo do Mar está imediatamente à esquerda do item com Alimentação igual a Kril."
+    ],
+    "feedback_question": "Qual é o resultado final deduzido?",
+    "correct_answer": "",
+    "solution": [
+      {
+        "Habitat": "Recife",
+        "Alimentação": "Plâncton",
+        "Comportamento": "Solitário",
+        "Característica Física": "Corpo alongado"
+      },
+      {
+        "Habitat": "Aberto",
+        "Alimentação": "Peixes Pequenos",
+        "Comportamento": "Social",
+        "Característica Física": "Barbatanas grandes"
+      },
+      {
+        "Habitat": "Fundo do Mar",
+        "Alimentação": "Lulas",
+        "Comportamento": "Migratório",
+        "Característica Física": "Dentes afiados"
+      },
+      {
+        "Habitat": "Gelo",
+        "Alimentação": "Kril",
+        "Comportamento": "Territorial",
+        "Característica Física": "Pele lisa"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'Habitat': 'Recife', 'Alimentação': 'Plâncton', 'Comportamento': 'Solitário', 'Característica Física': 'Corpo alongado'}",
+      "Atribuindo item 2: {'Habitat': 'Aberto', 'Alimentação': 'Peixes Pequenos', 'Comportamento': 'Social', 'Característica Física': 'Barbatanas grandes'}",
+      "Atribuindo item 3: {'Habitat': 'Fundo do Mar', 'Alimentação': 'Lulas', 'Comportamento': 'Migratório', 'Característica Física': 'Dentes afiados'}",
+      "Atribuindo item 4: {'Habitat': 'Gelo', 'Alimentação': 'Kril', 'Comportamento': 'Territorial', 'Característica Física': 'Pele lisa'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "Violino": [
+        "Corda",
+        "Madeira",
+        "Metal",
+        "Resonador"
+      ],
+      "Piano": [
+        "Teclado",
+        "Martelo",
+        "Pedal",
+        "Caixa de Resonância"
+      ],
+      "Flauta": [
+        "Sopro",
+        "Tubo",
+        "Chave",
+        "Bocal"
+      ],
+      "Guitarra": [
+        "Corda",
+        "Corpo",
+        "Trastes",
+        "Ponte"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 4 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 4.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - Violino: Corda, Madeira, Metal, Resonador.\n  - Piano: Teclado, Martelo, Pedal, Caixa de Resonância.\n  - Flauta: Sopro, Tubo, Chave, Bocal.\n  - Guitarra: Corda, Corpo, Trastes, Ponte.\n\nDicas do puzzle:\n1. Se um item tem Piano igual a Pedal, então esse mesmo item tem Violino igual a Metal.\n2. Se um item tem Guitarra igual a Ponte, então esse mesmo item tem Piano igual a Caixa de Resonância.\n3. Se um item tem Guitarra igual a Corpo, então esse mesmo item tem Piano igual a Martelo.\n4. Se um item tem Violino igual a Resonador, então esse mesmo item tem Guitarra igual a Ponte.\n5. Se um item tem Flauta igual a Tubo, então pelo menos um dos itens vizinhos tem Violino igual a Corda.\n6. Se um item tem Violino igual a Metal, então pelo menos um dos itens vizinhos tem Guitarra igual a Corpo.\n7. O item com Violino igual a Madeira está imediatamente à esquerda do item com Piano igual a Pedal.\n8. Se um item tem Flauta igual a Chave, então pelo menos um dos itens vizinhos tem Guitarra igual a Corpo.\n\n\nPergunta Retroalimentada: Com base na dedução, quem é vizinho do item com Flauta igual a Chave?",
+    "deduction": [
+      "1. O item 2 tem Violino igual a Madeira.",
+      "2. O item 3 tem Piano igual a Pedal.",
+      "3. O item 4 tem Piano igual a Caixa de Resonância.",
+      "4. O item 2 tem Guitarra igual a Corpo.",
+      "5. Se um item tem Piano igual a Pedal, então esse mesmo item tem Violino igual a Metal.",
+      "6. Se um item tem Guitarra igual a Ponte, então esse mesmo item tem Piano igual a Caixa de Resonância.",
+      "7. Se um item tem Guitarra igual a Corpo, então esse mesmo item tem Piano igual a Martelo.",
+      "8. Se um item tem Violino igual a Resonador, então esse mesmo item tem Guitarra igual a Ponte.",
+      "9. Se um item tem Flauta igual a Tubo, então pelo menos um dos itens vizinhos tem Violino igual a Corda.",
+      "10. Se um item tem Violino igual a Metal, então pelo menos um dos itens vizinhos tem Guitarra igual a Corpo.",
+      "11. O item com Violino igual a Madeira está imediatamente à esquerda do item com Piano igual a Pedal.",
+      "12. Se um item tem Flauta igual a Chave, então pelo menos um dos itens vizinhos tem Guitarra igual a Corpo."
+    ],
+    "feedback_question": "Com base na dedução, quem é vizinho do item com Flauta igual a Chave?",
+    "correct_answer": "Solução Final:\nItem 1: Violino: Corda, Piano: Teclado, Flauta: Sopro, Guitarra: Corda\nItem 2: Violino: Madeira, Piano: Martelo, Flauta: Tubo, Guitarra: Corpo\nItem 3: Violino: Metal, Piano: Pedal, Flauta: Chave, Guitarra: Trastes\nItem 4: Violino: Resonador, Piano: Caixa de Resonância, Flauta: Bocal, Guitarra: Ponte\n\nResposta: O item vizinho possui Guitarra igual a Corpo.",
+    "solution": [
+      {
+        "Violino": "Corda",
+        "Piano": "Teclado",
+        "Flauta": "Sopro",
+        "Guitarra": "Corda"
+      },
+      {
+        "Violino": "Madeira",
+        "Piano": "Martelo",
+        "Flauta": "Tubo",
+        "Guitarra": "Corpo"
+      },
+      {
+        "Violino": "Metal",
+        "Piano": "Pedal",
+        "Flauta": "Chave",
+        "Guitarra": "Trastes"
+      },
+      {
+        "Violino": "Resonador",
+        "Piano": "Caixa de Resonância",
+        "Flauta": "Bocal",
+        "Guitarra": "Ponte"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'Violino': 'Corda', 'Piano': 'Teclado', 'Flauta': 'Sopro', 'Guitarra': 'Corda'}",
+      "Atribuindo item 2: {'Violino': 'Madeira', 'Piano': 'Martelo', 'Flauta': 'Tubo', 'Guitarra': 'Corpo'}",
+      "Atribuindo item 3: {'Violino': 'Metal', 'Piano': 'Pedal', 'Flauta': 'Chave', 'Guitarra': 'Trastes'}",
+      "Atribuindo item 4: {'Violino': 'Resonador', 'Piano': 'Caixa de Resonância', 'Flauta': 'Bocal', 'Guitarra': 'Ponte'}",
+      "Solução completa encontrada!"
+    ]
+  },
+  {
+    "domain": {
+      "Montanha do Olimpo": [
+        "Zeus",
+        "Hera",
+        "Poseidon",
+        "Ares"
+      ],
+      "Valle das Sombras": [
+        "Hades",
+        "Persefone",
+        "Caronte",
+        "Cerberus"
+      ],
+      "Floresta Encantada": [
+        "Pan",
+        "Ninfas",
+        "Sátiros",
+        "Dryads"
+      ],
+      "Ilha dos Sonhos": [
+        "Morpheus",
+        "Oneiroi",
+        "Phantasos",
+        "Phobetor"
+      ]
+    },
+    "enunciado": "Puzzle Gerado Automaticamente\nVocê tem 4 itens (por exemplo, casas ou carros) dispostos em linha, numerados de 1 a 4.\nCada item possui os seguintes atributos e seus valores possíveis:\n  - Montanha do Olimpo: Zeus, Hera, Poseidon, Ares.\n  - Valle das Sombras: Hades, Persefone, Caronte, Cerberus.\n  - Floresta Encantada: Pan, Ninfas, Sátiros, Dryads.\n  - Ilha dos Sonhos: Morpheus, Oneiroi, Phantasos, Phobetor.\n\nDicas do puzzle:\n1. Se um item tem Floresta Encantada igual a Sátiros, então esse mesmo item tem Ilha dos Sonhos igual a Phantasos.\n2. Se um item tem Floresta Encantada igual a Sátiros, então esse mesmo item tem Montanha do Olimpo igual a Poseidon.\n3. Se um item tem Floresta Encantada igual a Ninfas, então esse mesmo item tem Ilha dos Sonhos igual a Oneiroi.\n4. Se um item tem Montanha do Olimpo igual a Zeus, então esse mesmo item tem Valle das Sombras igual a Hades.\n5. Se um item tem Floresta Encantada igual a Sátiros, então pelo menos um dos itens vizinhos tem Valle das Sombras igual a Cerberus.\n6. O item com Valle das Sombras igual a Hades está imediatamente à esquerda do item com Montanha do Olimpo igual a Hera.\n7. Se um item tem Ilha dos Sonhos igual a Oneiroi, então pelo menos um dos itens vizinhos tem Montanha do Olimpo igual a Poseidon.\n8. Se um item tem Valle das Sombras igual a Persefone, então pelo menos um dos itens vizinhos tem Ilha dos Sonhos igual a Morpheus.\n\n\nPergunta Retroalimentada: Com base na dedução, quem é vizinho do item com Valle das Sombras igual a Persefone?",
+    "deduction": [
+      "1. O item 3 tem Valle das Sombras igual a Caronte.",
+      "2. O item 4 tem Valle das Sombras igual a Cerberus.",
+      "3. O item 2 tem Valle das Sombras igual a Persefone.",
+      "4. O item 2 tem Montanha do Olimpo igual a Hera.",
+      "5. Se um item tem Floresta Encantada igual a Sátiros, então esse mesmo item tem Ilha dos Sonhos igual a Phantasos.",
+      "6. Se um item tem Floresta Encantada igual a Sátiros, então esse mesmo item tem Montanha do Olimpo igual a Poseidon.",
+      "7. Se um item tem Floresta Encantada igual a Ninfas, então esse mesmo item tem Ilha dos Sonhos igual a Oneiroi.",
+      "8. Se um item tem Montanha do Olimpo igual a Zeus, então esse mesmo item tem Valle das Sombras igual a Hades.",
+      "9. Se um item tem Floresta Encantada igual a Sátiros, então pelo menos um dos itens vizinhos tem Valle das Sombras igual a Cerberus.",
+      "10. O item com Valle das Sombras igual a Hades está imediatamente à esquerda do item com Montanha do Olimpo igual a Hera.",
+      "11. Se um item tem Ilha dos Sonhos igual a Oneiroi, então pelo menos um dos itens vizinhos tem Montanha do Olimpo igual a Poseidon.",
+      "12. Se um item tem Valle das Sombras igual a Persefone, então pelo menos um dos itens vizinhos tem Ilha dos Sonhos igual a Morpheus."
+    ],
+    "feedback_question": "Com base na dedução, quem é vizinho do item com Valle das Sombras igual a Persefone?",
+    "correct_answer": "Solução Final:\nItem 1: Montanha do Olimpo: Zeus, Valle das Sombras: Hades, Floresta Encantada: Pan, Ilha dos Sonhos: Morpheus\nItem 2: Montanha do Olimpo: Hera, Valle das Sombras: Persefone, Floresta Encantada: Ninfas, Ilha dos Sonhos: Oneiroi\nItem 3: Montanha do Olimpo: Poseidon, Valle das Sombras: Caronte, Floresta Encantada: Sátiros, Ilha dos Sonhos: Phantasos\nItem 4: Montanha do Olimpo: Ares, Valle das Sombras: Cerberus, Floresta Encantada: Dryads, Ilha dos Sonhos: Phobetor\n\nResposta: O item vizinho possui Ilha dos Sonhos igual a Morpheus.",
+    "solution": [
+      {
+        "Montanha do Olimpo": "Zeus",
+        "Valle das Sombras": "Hades",
+        "Floresta Encantada": "Pan",
+        "Ilha dos Sonhos": "Morpheus"
+      },
+      {
+        "Montanha do Olimpo": "Hera",
+        "Valle das Sombras": "Persefone",
+        "Floresta Encantada": "Ninfas",
+        "Ilha dos Sonhos": "Oneiroi"
+      },
+      {
+        "Montanha do Olimpo": "Poseidon",
+        "Valle das Sombras": "Caronte",
+        "Floresta Encantada": "Sátiros",
+        "Ilha dos Sonhos": "Phantasos"
+      },
+      {
+        "Montanha do Olimpo": "Ares",
+        "Valle das Sombras": "Cerberus",
+        "Floresta Encantada": "Dryads",
+        "Ilha dos Sonhos": "Phobetor"
+      }
+    ],
+    "log": [
+      "Atribuindo item 1: {'Montanha do Olimpo': 'Zeus', 'Valle das Sombras': 'Hades', 'Floresta Encantada': 'Pan', 'Ilha dos Sonhos': 'Morpheus'}",
+      "Atribuindo item 2: {'Montanha do Olimpo': 'Hera', 'Valle das Sombras': 'Persefone', 'Floresta Encantada': 'Ninfas', 'Ilha dos Sonhos': 'Oneiroi'}",
+      "Atribuindo item 3: {'Montanha do Olimpo': 'Poseidon', 'Valle das Sombras': 'Caronte', 'Floresta Encantada': 'Sátiros', 'Ilha dos Sonhos': 'Phantasos'}",
+      "Atribuindo item 4: {'Montanha do Olimpo': 'Ares', 'Valle das Sombras': 'Cerberus', 'Floresta Encantada': 'Dryads', 'Ilha dos Sonhos': 'Phobetor'}",
+      "Solução completa encontrada!"
+    ]
+  }
+]
